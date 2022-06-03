@@ -1,0 +1,47 @@
+.help-image {
+    width: 527px;
+    height: 519.49px;
+}
+
+.help-head {
+    font-family: 'Poppins', sans-serif;
+    color: #091627;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.help-description {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.help-button {
+    text-align: left;
+}
+@media only screen and (max-width: 667px) { 
+    .help-image {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .help-head {
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 35px;
+        margin-top: 40px;
+    }
+    
+    .help-description {
+        margin-top: 0px;
+    }
+    
+    .help-button {
+        text-align: left;
+    }
+ }
+@media only screen and (max-width:991px) and (min-width:668px){ }
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

@@ -1,0 +1,212 @@
+.footer-main {
+    background-color: #091627;
+}
+
+.footerTop-main {
+    background-color: #1D3881;
+    border-radius: 25px;
+    text-align: center;
+    padding: 100px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -370px;
+}
+
+.footer-header h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-header button {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    background-color: #F04545;
+    padding: 16px 40px;
+    border-radius: 100px;
+    border: 1px solid #F04545;
+}
+
+.footer-header button:hover {
+    background-color: #09162700;
+    border: 1px solid #F04545;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.footer-sections {
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.first-colum {
+    text-align: left;
+}
+
+.first-colum p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.first-colum h6 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin: 30px 0px;
+}
+
+.social1 {
+    color: white;
+    text-align: center;
+    margin-right: 24px;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #7a7975;
+    border-radius: 100%;
+}
+
+.social {
+    color: white;
+    text-align: center;
+    margin-right: 24px;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #7a7975;
+    border-radius: 100%;
+}
+
+.footer-head {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #D9D9D9;
+    text-align: left;
+}
+
+.footer-link {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.divider {
+    display: block;
+    opacity: 0.1;
+    border: 2px solid #F3EFE4;
+    background-color: #F3EFE4;
+}
+
+.footer-last {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+@media only screen and (max-width: 667px) {
+    .footer-main {
+        background-color: #091627;
+    }
+
+    .footerTop-main {
+        padding: 50px;
+        width: 100%;
+        margin-top: -250px;
+    }
+
+    .footer-header h3 {
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .footer-header button {
+        font-size: 16px;
+        line-height: 28px;
+        background-color: #F04545;
+        padding: 12px 25px;
+    }
+
+    .footer-sections {
+        margin-top: 100px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .first-colum {
+        text-align: center;
+    }
+
+    .first-colum p {
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    .first-colum h6 {
+        font-family: 'Inter', sans-serif;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        margin: 30px 0px;
+    }
+
+    .footer-head {
+        font-size: 23px;
+        line-height: 24px;
+        color: #D9D9D9;
+        text-align: center;
+        margin: 40px 0 20px 0px;
+    }
+
+    .footer-link {
+        text-align: center;
+    }
+
+    .divider {
+        border: 1px solid #F3EFE4;
+    }
+
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

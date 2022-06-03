@@ -1,0 +1,137 @@
+.protfolio-head {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.latest-project {
+    font-family: 'Inter', sans-serif;
+    color: #F04545;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.latest-head {
+    font-family: 'Poppins', sans-serif;
+    color: #091627;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: left;
+}
+
+.leftarrow {
+    height: 50px;
+    width: 50px;
+    opacity: 30%;
+    margin-right: 10px;
+    color: #091627;
+}
+
+.rightarrow {
+    height: 50px;
+    width: 50px;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.portfolio img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.portfolio-text {
+    text-align: left;
+    background: #091627;
+    mix-blend-mode: multiply;
+    opacity: 0.5;
+    border-radius: 0px 0px 16px 16px;
+    padding: 25px;
+    margin: -112px 0 0 0;
+}
+
+.portfolio-text p {
+    font-family: 'Poppins', sans-serif;
+    font-Weight: 400;
+    font-size: 18px;
+    Line-height: 21.6px;
+    color: #FFFFFF;
+    margin: 0px 1px 10px 0;
+
+}
+
+.portfolio-text h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0px 0px 0px 0;
+}
+
+@media only screen and (max-width: 667px) { 
+    .protfolio-head {
+        display: block !important;
+    }
+    
+    .latest-project {
+       margin: 20px 0 0 0;
+       text-align: center;
+    }
+    
+    .latest-head {
+        font-size: 27px;
+        line-height: 60px;
+        text-align: center;
+    }
+    
+    .leftarrow {
+        height: 40px;
+        width: 40px;
+        opacity: 30%;
+        margin-right: 10px;
+        color: #091627;
+    }
+    
+    .rightarrow {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .portfolio {
+        
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 25px 0px;
+    }
+    .portfolio-text {
+        text-align: left;
+        background: #091627;
+        mix-blend-mode: multiply;
+        opacity: 0.5;
+        border-radius: 0px 0px 16px 16px;
+        padding: 20px;
+        margin: -100px 0 0 0;
+    }
+    
+    .portfolio-text p {
+        font-size: 17px;
+        margin: 0px 0px 7px 0;
+    
+    }
+    
+    .portfolio-text h5 {
+        font-weight: 500px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+ }
+@media only screen and (max-width:991px) and (min-width:668px){ }
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

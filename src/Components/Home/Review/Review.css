@@ -1,0 +1,132 @@
+.review-start {
+    margin: 0 0 0 0;
+}
+
+.star-review p {
+    text-align: left;
+}
+
+.fas {
+    color: #F6D88C;
+}
+
+.star-review img {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    background: #F6D88C;
+}
+
+.all-review {
+    margin: 0px 0 350px 0px;
+}
+
+.star-review p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.text-review {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #091627;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.user {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.user img {
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    margin: 10px 15px 0px 0px;
+}
+
+.user h6 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #0D0E16;
+    text-align: left;
+    margin: 0;
+}
+
+.user p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #56565C;
+    opacity: 0.6;
+    text-align: left;
+    margin: 0;
+}
+
+.review-left-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 667px) {
+    .latest-head {
+        text-align: left;
+        padding: 0 25px;
+    }
+
+    .star-review {
+        padding-left: 30px;
+    }
+
+    .star-review p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .text-review {
+        line-height: 32px;
+        color: #091627;
+        text-align: left;
+        font-size: 27px;
+        margin-top: 25px;
+    }
+
+    .user {
+        margin-bottom: 30px;
+
+    }
+
+    .user img {
+        width: 54px;
+        height: 54px;
+        border-radius: 100%;
+        margin: 10px 15px 0px 0px;
+    }
+
+    .review-left-image {
+        width: 80%;
+        height: 80%;
+    }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

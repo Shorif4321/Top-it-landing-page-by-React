@@ -1,0 +1,19 @@
+[
+    {
+    "id": "1", "image": "https://i.ibb.co/HdqhPt6/Rectangle6.png", 
+    "name": "Application",
+    "des": "SEO Project Management Tool"},
+    {
+    "id": "2", "image": "https://i.ibb.co/KzH7F36/image-3.png", 
+    "name": "UI Design",
+    "des": "Madical Mobile App Project"},
+    {
+    "id": "3", "image": "https://i.ibb.co/KzH7F36/image-3.png", 
+    "name": "Development",
+    "des": "Insurane website Project"},
+    {
+    "id": "4", "image": "https://i.ibb.co/drykDLS/Group-7.png", 
+    "name": "Web Application",
+    "des": "HRM Web Application Project"}
+   
+]

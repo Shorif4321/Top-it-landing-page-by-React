@@ -1,0 +1,122 @@
+.hero-head {
+    font-family: 'Poppins', sans-serif;
+    color: #091627;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: left;
+}
+
+.hero-description {
+    font-family: 'Inter', sans-serif;
+    color: #515D6D;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.hero-button {
+    margin-top: 55px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hero-button1 {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    background-color: #F04545;
+    padding: 16px 40px;
+    border-radius: 100px;
+    border: 1px solid #F04545;
+}
+
+.hero-button2 {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    background: #091627;
+    padding: 16px 40px;
+    border-radius: 100px;
+    border: 1px solid #091627;
+}
+
+.hero-button1:hover {
+    background-color: #09162700;
+    border: 1px solid #F04545;
+    color: #091627;
+    transition: 0.3s;
+}
+
+.hero-button2:hover {
+    background-color: #09162700;
+    border: 1px solid #091627;
+    color: #091627;
+    transition: 0.3s;
+}
+
+.hero-image {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 667px) { 
+    
+    br{
+        display: none;
+    }
+  
+    .hero-head {
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 40px;
+        text-align: left;
+        padding: 0 25px;
+    }
+    .hero-description {
+        font-size: 17px;
+        line-height: 28px;
+        text-align: justify;
+        margin-top: 15px;
+        padding: 0 25px;
+    }
+    
+    .hero-button {
+        justify-content: center;
+        align-items: stretch;
+        flex-direction: column;
+        padding: 0 25px;
+        margin-top: 35px;
+        }
+    
+    .hero-button1 {
+        font-weight: 300px;
+        font-size: 17px;
+        line-height: 30px;
+        padding: 12px 25px;
+    }
+    
+    .hero-button2 {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+        background: #091627;
+        padding: 12px 25px;
+        }
+    .hero-image {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+ }
+@media only screen and (max-width:991px) and (min-width:668px){ }
+@media only screen and (max-width: 1200px) and (min-width:992px) {}
