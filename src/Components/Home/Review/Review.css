@@ -84,32 +84,31 @@
 
 @media only screen and (max-width: 667px) {
     .latest-head {
-        text-align: left;
+        text-align:center;
         padding: 0 25px;
     }
 
     .star-review {
-        padding-left: 30px;
+        padding: 0px 25px;
     }
 
     .star-review p {
-        font-family: 'Poppins', sans-serif;
-        font-style: normal;
-        font-weight: 500;
         font-size: 17px;
         line-height: 30px;
+        text-align: center;
     }
 
     .text-review {
         line-height: 32px;
         color: #091627;
-        text-align: left;
-        font-size: 27px;
+        text-align: center;
+        font-size: 25px;
         margin-top: 25px;
     }
 
     .user {
         margin-bottom: 30px;
+        justify-content: center;
 
     }
 
@@ -121,8 +120,8 @@
     }
 
     .review-left-image {
-        width: 80%;
-        height: 80%;
+        width: 97%;
+        height: 97%;
     }
 
 }

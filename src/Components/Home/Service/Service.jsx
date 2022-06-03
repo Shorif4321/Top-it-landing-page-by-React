@@ -24,14 +24,14 @@ const Service = () => {
                 <h1 className='service-main'>We help our clients to recognize and develop their own identity</h1>
             </div>
 
-            <div className='service-items px-5'>
+            <div className='service-items px-md-5'>
                 {
                     services.map(service =>
-                        <div key={service.id} className="mb-5">
+                        <div key={service.id} className="mb-md-5 mb-sm-3">
 
                             <img src={service.image} alt="" />
                             <h4 className='service-name'>{service.name}</h4>
-                            <p className='service-des px-4'>{service.des}</p>
+                            <p className='service-des px-md-4'>{service.des}</p>
 
                         </div>)
                 }

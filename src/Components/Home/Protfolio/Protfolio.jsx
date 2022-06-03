@@ -25,7 +25,7 @@ const Protfolio = () => {
 
             {/* portfolio start */}
             <div>
-                <div className='portfolio px-5'>
+                <div className='portfolio px-md-5'>
                     {
                         portfolios.map(portfolio => <div key={portfolio.id}>
                             <div className="mb-2">

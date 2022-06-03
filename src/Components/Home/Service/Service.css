@@ -51,20 +51,21 @@
 }
 @media only screen and (max-width: 667px) { 
     .service {
-        width: 80%;
+        width: 100%;
+        padding: 0 20px;
     }
     .service-head {
         margin: -120px 0 10px 0px;
     }
     
     .service-main {
-        font-weight: 600;
-        font-size: 27px;
+        font-size: 25px;
     }
     
     .service-items {
         grid-template-columns: repeat(1, 1fr);
-        margin-top: 80px;      
+        margin-top: 60px; 
+        padding: 0 20px;    
     }
     
     .service-name {

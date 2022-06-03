@@ -7,7 +7,7 @@ import john from "../../../Images/john.png"
 
 const Review = () => {
     return (
-        <div className='my-5 py-4 review-start'>
+        <div className='my-5 py-md-4 review-start'>
             <div className='px-md-5 protfolio-head mb-4'>
                 <div className='w-md-50'>
                     <h4 className="latest-head">What Our Customer<br /> Say About Us</h4>
@@ -18,8 +18,8 @@ const Review = () => {
                 </div>
             </div>
 
-            <div className='d-md-flex align-items-center  mt-md-5 px-md-5 px-sm-4 all-review'>
-                <div className='col-md-8 col-10'>
+            <div className='d-md-flex align-items-center mt-md-5 px-md-5 all-review'>
+                <div className='col-md-8 col-12'>
                     <div className='star-review pe-md-5 '>
                         <p>4.00 <i className="fas fa-star"> </i>
                             <i className="fas fa-star"></i>
@@ -43,7 +43,7 @@ const Review = () => {
 
 
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 col-12'>
                     <img className='review-left-image' src={reviwImage} alt="" />
 
                 </div>

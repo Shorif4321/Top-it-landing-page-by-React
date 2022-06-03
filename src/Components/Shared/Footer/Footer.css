@@ -65,7 +65,6 @@
 
 .first-colum h6 {
     font-family: 'Inter', sans-serif;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -139,30 +138,30 @@
 
 @media only screen and (max-width: 667px) {
     .footer-main {
-        background-color: #091627;
+        padding: 10px 25px;
+        margin-top: -100px;
     }
 
     .footerTop-main {
-        padding: 50px;
+        padding: 30px 0px;
         width: 100%;
-        margin-top: -250px;
+        margin-top: -150px;
     }
 
     .footer-header h3 {
         font-weight: 500;
-        font-size: 27px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 35px;
     }
 
     .footer-header button {
         font-size: 16px;
         line-height: 28px;
-        background-color: #F04545;
-        padding: 12px 25px;
+        padding: 10px 20px;
     }
 
     .footer-sections {
-        margin-top: 100px;
+        margin-top: 0px;
         align-items: center;
         flex-direction: column;
     }
@@ -177,23 +176,16 @@
     }
 
     .first-colum h6 {
-        font-family: 'Inter', sans-serif;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
         font-size: 12px;
         line-height: 14px;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
         margin: 30px 0px;
     }
 
     .footer-head {
-        font-size: 23px;
-        line-height: 24px;
-        color: #D9D9D9;
+        font-size: 25px;
+        line-height: 28px;
         text-align: center;
-        margin: 40px 0 20px 0px;
+        margin: 50px 0 20px 0px;
     }
 
     .footer-link {

@@ -88,9 +88,10 @@
     }
     
     .latest-head {
-        font-size: 27px;
+        font-size: 25px;
         line-height: 60px;
         text-align: center;
+        padding: 0;
     }
     
     .leftarrow {
@@ -107,30 +108,30 @@
     }
     
     .portfolio {
-        
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 25px 0px;
+        grid-gap: 20px 0px;
+        padding: 0px 20px;
     }
     .portfolio-text {
-        text-align: left;
+        text-align: center;
         background: #091627;
         mix-blend-mode: multiply;
         opacity: 0.5;
         border-radius: 0px 0px 16px 16px;
         padding: 20px;
-        margin: -100px 0 0 0;
+        margin: -95px 0 0 0;
     }
     
     .portfolio-text p {
-        font-size: 17px;
+        font-size: 16px;
         margin: 0px 0px 7px 0;
     
     }
     
     .portfolio-text h5 {
         font-weight: 500px;
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 28px;
     }
  }
 @media only screen and (max-width:991px) and (min-width:668px){ }
