@@ -1,10 +1,22 @@
+.banner-home{
+    background-image: url(../../../Images/bannerhome.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 65%;
+}
+
 .hero-head {
     font-family: 'Poppins', sans-serif;
     color: #091627;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
-    text-align: left;
+}
+.hero-head span{
+    background-image: url(../../../Images/spanBold.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* border-bottom: 4px solid #F14E4E; */
 }
 
 .hero-description {
@@ -13,17 +25,14 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    text-align: left;
     margin-top: 18px;
 }
 
 .hero-button {
     margin-top: 55px;
-    text-align: left;
+    gap: 20px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 10px;
+    justify-content: center;
 }
 
 .hero-button1 {
@@ -33,7 +42,7 @@
     font-size: 18px;
     line-height: 32px;
     background-color: #F04545;
-    padding: 16px 40px;
+    padding: 14px 40px;
     border-radius: 100px;
     border: 1px solid #F04545;
 }
@@ -45,7 +54,7 @@
     font-size: 18px;
     line-height: 32px;
     background: #091627;
-    padding: 16px 40px;
+    padding: 14px 40px;
     border-radius: 100px;
     border: 1px solid #091627;
 }
@@ -64,13 +73,14 @@
     transition: 0.3s;
 }
 
-.hero-image {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
+.my-border{
+    border-radius: 16px;
+}
+.my-border img:hover{
+    
+
 }
 @media only screen and (max-width: 667px) { 
-    
     br{
         display: none;
     }
@@ -112,11 +122,6 @@
         background: #091627;
         padding: 12px 25px;
         }
-    .hero-image {
-        object-fit: cover;
-        width: 100%;
-        height: auto;
-    }
  }
 @media only screen and (max-width:991px) and (min-width:668px){ }
 @media only screen and (max-width: 1200px) and (min-width:992px) {}

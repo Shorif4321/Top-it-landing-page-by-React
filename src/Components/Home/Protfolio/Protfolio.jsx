@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import "./Protfolio.css"
-import leftarrow from "../../../Images/left arrow.png"
-import rightarrow from "../../../Images/right arrow.png"
 
 const Protfolio = () => {
     const [portfolios, setPortfolios] = useState([])
@@ -12,23 +10,23 @@ const Protfolio = () => {
     }, [])
     return (
         <>
-            <div className='px-md-5 px-sm-4 protfolio-head mb-4'>
+            <div className='container px-sm-4 protfolio-head mb-4'>
                 <div className='w-md-50'>
                     <p className='latest-project'>LATEST PROJECT</p>
                     <h4 className="latest-head">Checkout  Our <br /> Amazing work</h4>
                 </div>
                 <div className='mt-sm-4 mb-sm-5'>
-                    <img className='leftarrow' src={leftarrow} alt="" />
-                    <img className='rightarrow' src={rightarrow} alt="" />
+                    <button className='latest-project-button'>Explore All <i class="ms-3 fas fa-arrow-right"></i></button>
+
                 </div>
             </div>
 
             {/* portfolio start */}
             <div>
-                <div className='portfolio px-md-5'>
+                <div className='container portfolio'>
                     {
                         portfolios.map(portfolio => <div key={portfolio.id}>
-                            <div className="mb-2">
+                            <div className="mb-2 portfolio-hove">
                                 <div>
                                     <img src={portfolio.image} alt="" />
                                 </div>

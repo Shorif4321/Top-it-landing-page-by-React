@@ -18,16 +18,16 @@ const Service = () => {
     }, [])
 
     return (
-        <div className=' '>
+        <div className='container '>
             <div className='service my-md-5 py-md-4'>
                 <h6 className='service-head'>THIS IS A PLACE WHERE IDEAS GROW</h6>
                 <h1 className='service-main'>We help our clients to recognize and develop their own identity</h1>
             </div>
 
-            <div className='service-items px-md-5'>
+            <div className='service-items'>
                 {
                     services.map(service =>
-                        <div key={service.id} className="mb-md-5 mb-sm-3">
+                        <div key={service.id} className="service-new mb-md-5 mb-sm-3">
 
                             <img src={service.image} alt="" />
                             <h4 className='service-name'>{service.name}</h4>

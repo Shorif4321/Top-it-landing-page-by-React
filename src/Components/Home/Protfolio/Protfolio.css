@@ -48,6 +48,50 @@
     border-radius: 16px;
 }
 
+
+/* 
+.container{
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  } */
+
+
+
 .portfolio-text {
     text-align: left;
     background: #091627;
@@ -56,6 +100,13 @@
     border-radius: 0px 0px 16px 16px;
     padding: 25px;
     margin: -112px 0 0 0;
+    display: none;
+    transition: 0.3s ease-in ;
+}
+
+.portfolio-hove:hover .portfolio-text{
+    display: block;
+    transition: 0.3s ease-in ;
 }
 
 .portfolio-text p {
@@ -64,7 +115,7 @@
     font-size: 18px;
     Line-height: 21.6px;
     color: #FFFFFF;
-    margin: 0px 1px 10px 0;
+    margin: 0px 1px 8px 0;
 
 }
 
@@ -75,6 +126,26 @@
     line-height: 32px;
     color: #FFFFFF;
     margin: 0px 0px 0px 0;
+}
+
+.latest-project-button{
+    background-color: #F04545;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 30px;
+    border: 1px solid #F04545;
+}
+.latest-project-button:hover{
+    background-color: #f0454500;
+    color: black;
+    border: 1px solid #F04545;
+    transition: 0.3s ease-in;
+}
+.icon-button{
+    color: white !important;
+}
+.icon-button:hover{
+    color: black !important;
 }
 
 @media only screen and (max-width: 667px) { 

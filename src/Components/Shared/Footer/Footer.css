@@ -3,6 +3,8 @@
 }
 
 .footerTop-main {
+    background-image: url(../../../Images/WhatsApp\ Image\ 2022-06-15\ at\ 1.45.26\ PM.jpeg);
+    background-blend-mode: multiply;
     background-color: #1D3881;
     border-radius: 25px;
     text-align: center;

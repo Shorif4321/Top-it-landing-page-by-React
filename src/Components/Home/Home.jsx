@@ -7,12 +7,14 @@ import HelpContent from './HelpContent/HelpContent';
 import Protfolio from './Protfolio/Protfolio';
 import Review from './Review/Review';
 import Service from './Service/Service';
+import SliderHome from './SliderHome/SliderHome';
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
             <Banner></Banner>
+            <SliderHome></SliderHome>
             <Service></Service>
             <Protfolio></Protfolio>
             <HelpContent></HelpContent>

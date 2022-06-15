@@ -4,7 +4,7 @@ import logo from "../../../Images/Untitled-1-1-1.png"
 
 const Header = () => {
     return (
-        <div className='d-md-flex justify-content-between align-items-center px-md-5 my-4'>
+        <div className='container d-md-flex justify-content-between align-items-center my-4'>
             <div>
                 <img src={logo} alt="" />
             </div>
