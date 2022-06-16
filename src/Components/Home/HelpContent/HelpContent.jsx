@@ -7,7 +7,7 @@ const HelpContent = () => {
         <div className="container">
             <div className='d-md-flex justify-content-between my-5 pt-5 align-items-center'>
                 <div className='col-12 col-md-5 '>
-                    <img className='help-image' src={helpImage} alt="Banner image" />
+                    <img className='help-image img-fluid' src={helpImage} alt="Banner image" />
                 </div>
 
                 <div className='col-12 col-md-6 help'>

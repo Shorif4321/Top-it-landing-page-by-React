@@ -48,8 +48,8 @@ const Footer = () => {
                 </div>
 
                 <div className='footer-bottom'>
-                    <div className='p-5'> <span className='divider'></span></div>
-                    <div className='d-md-flex justify-content-between p-3'>
+                    <div className='py-5'> <span className='divider'></span></div>
+                    <div className='d-md-flex justify-content-between py-3'>
                         <div>
                             <p className='footer-last'>©TopITLTD 2022. All rights reserved.</p>
                         </div>

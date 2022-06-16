@@ -4,6 +4,8 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import sliderImage from "../../../Images/bannerUnder.png"
+import sliderImage1 from "../../../Images/slider2.png"
+import sliderImage2 from "../../../Images/slider3.png"
 
 const SliderHome = () => {
     const settings = {
@@ -11,7 +13,7 @@ const SliderHome = () => {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         speed: 2000,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -45,17 +47,17 @@ const SliderHome = () => {
     return (<div className='container'>
 
         <Slider {...settings}>
-            <div>
+            <div className='mx-2'>
                 <img className='img-fluid' src={sliderImage} alt="" />
             </div>
-            <div>
-            <img className='img-fluid' src={sliderImage} alt="" />
+            <div className='mx-2'>
+                <img className='img-fluid' src={sliderImage2} alt="" />
             </div>
-            <div>
-            <img className='img-fluid' src={sliderImage} alt="" />
+            <div className='mx-2'>
+                <img className='img-fluid' src={sliderImage1} alt="" />
             </div>
-            <div>
-            <img className='img-fluid' src={sliderImage} alt="" />
+            <div className='mx-2'>
+                <img className='img-fluid' src={sliderImage} alt="" />
             </div>
         </Slider>
     </div>

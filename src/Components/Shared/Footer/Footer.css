@@ -2,8 +2,9 @@
     background-color: #091627;
 }
 
-.footerTop-main {
-    background-image: url(../../../Images/WhatsApp\ Image\ 2022-06-15\ at\ 1.45.26\ PM.jpeg);
+.footerTop-main {/* 
+    background-image: url(../../../Images/WhatsApp\ Image\ 2022-06-15\ at\ 1.45.26\ PM.jpeg); */
+    background-image: url(../../../Images/pattern.png);
     background-blend-mode: multiply;
     background-color: #1D3881;
     border-radius: 25px;
