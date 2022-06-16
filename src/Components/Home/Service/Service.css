@@ -65,7 +65,7 @@
 @media only screen and (max-width: 667px) { 
     .service {
         width: 100%;
-        padding: 0 20px;
+        padding: 150px 0px 0px 0px;
     }
     .service-head {
         margin: -120px 0 10px 0px;
@@ -87,5 +87,29 @@
         margin-top: 16px;
     }
  }
-@media only screen and (max-width:991px) and (min-width:668px){ }
+@media only screen and (max-width:991px) and (min-width:668px){
+    .service {
+        width: 100%;
+        padding: 100px 0px 0px 0px;
+    }
+    .service-head {
+        margin: 0px 0 10px 0px;
+    }
+    
+    .service-main {
+        font-size: 25px;
+    }
+    
+    .service-items {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 60px; 
+        padding: 0 20px;    
+    }
+  
+    .service-name {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 16px;
+    }
+ }
 @media only screen and (max-width: 1200px) and (min-width:992px) {}

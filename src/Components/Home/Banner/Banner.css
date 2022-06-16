@@ -81,6 +81,12 @@
 
 }
 @media only screen and (max-width: 667px) { 
+    .banner-home{
+        background-image: url(../../../Images/bannerhome.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position-y: 60%;
+    }
     br{
         display: none;
     }
@@ -89,13 +95,13 @@
         font-weight: 500;
         font-size: 25px;
         line-height: 35px;
-        text-align: left;
+        text-align: center;
         padding: 0 25px;
     }
     .hero-description {
         font-size: 17px;
         line-height: 28px;
-        text-align: justify;
+        text-align: center;
         margin-top: 15px;
         padding: 0 25px;
     }
@@ -104,8 +110,57 @@
         justify-content: center;
         align-items: stretch;
         flex-direction: column;
+        padding: 60px 0px 0 0;
+        }
+    
+    .hero-button1 {
+        font-weight: 300px;
+        font-size: 17px;
+        line-height: 30px;
+        padding: 12px 25px;
+    }
+    
+    .hero-button2 {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+        background: #091627;
+        padding: 12px 25px;
+        }
+
+ }
+@media only screen and (max-width:991px) and (min-width:668px){
+    .banner-home{
+        background-image: url(../../../Images/bannerhome.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position-y: 58%;
+    }
+    br{
+        display: none;
+    }
+  
+    .hero-head {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 30px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .hero-description {
+        font-size: 17px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 15px;
         padding: 0 25px;
-        margin-top: 35px;
+    }
+    
+    .hero-button {
+        justify-content: center;
+        align-items: stretch;
+        flex-direction: column;
+        padding: 60px 0px 0 0;
         }
     
     .hero-button1 {
@@ -123,5 +178,4 @@
         padding: 12px 25px;
         }
  }
-@media only screen and (max-width:991px) and (min-width:668px){ }
 @media only screen and (max-width: 1200px) and (min-width:992px) {}

@@ -1,0 +1,50 @@
+.footer-main {
+    background-color: #091627;
+}
+.footerTop2{
+    background-color: #091627;
+}
+
+.footerTop-main {
+    background-image: url(../../../Images/WhatsApp\ Image\ 2022-06-15\ at\ 1.45.26\ PM.jpeg);
+   /*  background-image: url(../../../Images/pattern.png); */
+    background-blend-mode: multiply;
+    background-color: #1D3881;
+    border-radius: 25px;
+    text-align: center;
+    padding: 100px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -370px;
+}
+
+.footer-header h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-header button {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    background-color: #F04545;
+    padding: 16px 40px;
+    border-radius: 100px;
+    border: 1px solid #F04545;
+}
+
+@media only screen and (max-width: 667px) { 
+  
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {}
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

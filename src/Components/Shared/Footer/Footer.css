@@ -142,19 +142,20 @@
 @media only screen and (max-width: 667px) {
     .footer-main {
         padding: 10px 25px;
-        margin-top: -100px;
+        margin-bottom: -150px;
     }
 
     .footerTop-main {
-        padding: 30px 0px;
-        width: 100%;
-        margin-top: -150px;
+        padding: 40px 10px;
+        width: auto;
+        margin-bottom: 120px;
     }
 
     .footer-header h3 {
         font-weight: 500;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 35px;
+        padding: 8px;
     }
 
     .footer-header button {
@@ -202,6 +203,72 @@
 
 }
 
-@media only screen and (max-width:991px) and (min-width:668px) {}
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .footer-sections {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .footer-main {
+        padding: 10px 25px;
+        margin-bottom: -200px;
+    }
+
+    .footerTop-main {
+        padding: 40px 10px;
+        width: auto;
+        margin-bottom: 120px;
+    }
+
+    .footer-header h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px;
+        padding: 8px;
+    }
+
+    .footer-header button {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 10px 20px;
+    }
+
+    .footer-sections {
+        margin-top: 0px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .first-colum {
+        text-align: center;
+    }
+
+    .first-colum p {
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    .first-colum h6 {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 30px 0px;
+    }
+
+    .footer-head {
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+        margin: 50px 0 20px 0px;
+    }
+
+    .footer-link {
+        text-align: center;
+    }
+
+    .divider {
+        border: 1px solid #F3EFE4;
+    }
+
+}
 
 @media only screen and (max-width: 1200px) and (min-width:992px) {}

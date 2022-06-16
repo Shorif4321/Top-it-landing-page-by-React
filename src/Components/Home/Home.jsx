@@ -1,6 +1,5 @@
 import React from 'react';
-import Footer from '../Shared/Footer/Footer';
-import Header from '../Shared/Header/Header';
+import FooterTop from '../Shared/FooterTop/FooterTop';
 import Banner from './Banner/Banner';
 import Counter from './Counter/Counter';
 import HelpContent from './HelpContent/HelpContent';
@@ -12,7 +11,6 @@ import SliderHome from './SliderHome/SliderHome';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
             <Banner></Banner>
             <SliderHome></SliderHome>
             <Service></Service>
@@ -20,7 +18,7 @@ const Home = () => {
             <HelpContent></HelpContent>
             <Counter></Counter>
             <Review></Review>
-            <Footer></Footer>
+            <FooterTop></FooterTop>
         </div>
     );
 };

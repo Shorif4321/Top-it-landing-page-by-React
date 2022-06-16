@@ -6,12 +6,7 @@ const Footer = () => {
     return (
         <div className='footer-main p-md-5'>
             <div className='container'>
-                <div className='footerTop-main'>
-                    <div className='footer-header'>
-                        <h3>Let’s get started your project with professional way</h3>
-                        <button className='mt-3'>Get started Now </button>
-                    </div>
-                </div>
+            
                 <div className=' mt-md-5 pt-5  footer-sections'>
                     <div className="col-md-3 col-12 first-colum">
                         <img className='mb-2' src={logo} alt="" />

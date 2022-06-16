@@ -44,7 +44,7 @@ const SliderHome = () => {
             }
         ]
     };
-    return (<div className='container'>
+    return (<div className='slider container'>
 
         <Slider {...settings}>
             <div className='mx-2'>

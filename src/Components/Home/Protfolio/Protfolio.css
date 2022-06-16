@@ -49,49 +49,6 @@
 }
 
 
-/* 
-.container{
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .container:hover .image {
-    opacity: 0.3;
-  }
-  
-  .container:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  } */
-
-
-
 .portfolio-text {
     text-align: left;
     background: #091627;
@@ -205,5 +162,63 @@
         line-height: 28px;
     }
  }
-@media only screen and (max-width:991px) and (min-width:668px){ }
+@media only screen and (max-width:991px) and (min-width:668px){
+    .protfolio-head {
+        display: block !important;
+    }
+    
+   
+    
+    .latest-project {
+       margin: 20px 0 0 0;
+       text-align: center;
+    }
+    
+    .latest-head {
+        font-size: 25px;
+        line-height: 60px;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .leftarrow {
+        height: 40px;
+        width: 40px;
+        opacity: 30%;
+        margin-right: 10px;
+        color: #091627;
+    }
+    
+    .rightarrow {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .portfolio {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px 0px;
+        padding: 0px 20px;
+    }
+    .portfolio-text {
+        text-align: center;
+        background: #091627;
+        mix-blend-mode: multiply;
+        opacity: 0.5;
+        border-radius: 0px 0px 16px 16px;
+        padding: 20px;
+        margin: -95px 0 0 0;
+    }
+    
+    .portfolio-text p {
+        font-size: 16px;
+        margin: 0px 0px 7px 0;
+    
+    }
+    
+    .portfolio-text h5 {
+        font-weight: 500px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
 @media only screen and (max-width: 1200px) and (min-width:992px) {}

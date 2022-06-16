@@ -18,7 +18,7 @@ const Service = () => {
     }, [])
 
     return (
-        <div className='container '>
+        <div className='container mt-5'>
             <div className='service my-md-5 py-md-4'>
                 <h6 className='service-head'>THIS IS A PLACE WHERE IDEAS GROW</h6>
                 <h1 className='service-main'>We help our clients to recognize and develop their own identity</h1>

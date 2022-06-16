@@ -5,12 +5,12 @@ import helpImage from "../../../Images/Group8773.png"
 const HelpContent = () => {
     return (
         <div className="container">
-            <div className='d-md-flex justify-content-between my-5 pt-5 align-items-center'>
-                <div className='col-12 col-md-5 '>
+            <div className='d-lg-flex justify-content-between my-5 pt-5 align-items-center'>
+                <div className='col-12 col-md-12 col-lg-5 '>
                     <img className='help-image img-fluid' src={helpImage} alt="Banner image" />
                 </div>
 
-                <div className='col-12 col-md-6 help'>
+                <div className='col-12 col-md-12 col-lg-7  help'>
                     <h1 className='help-head mb-4'>
                         Helping your Organization to Achieve what It Deserves
                     </h1>

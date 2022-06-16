@@ -126,6 +126,40 @@
 
 }
 
-@media only screen and (max-width:991px) and (min-width:668px) {}
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .latest-head {
+        text-align:center;
+        padding: 0 25px;
+    }
+
+    .star-review {
+        padding: 0px 25px;
+    }
+
+    .star-review p {
+        font-size: 17px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .text-review {
+        line-height: 40px;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    .user {
+        margin-bottom: 30px;
+        justify-content: center;
+
+    }
+
+  
+    .review-left-image {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 @media only screen and (max-width: 1200px) and (min-width:992px) {}
