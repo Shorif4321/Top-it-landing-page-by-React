@@ -1,3 +1,6 @@
+.help{
+    padding-left: 60px;
+}
 .help-image {
     width: 527px;
     height: 519.49px;
@@ -29,7 +32,7 @@
         height: 400px;
     } */
     .help{
-        padding: 0px 22px 0px 22px;
+        padding: 0px 22px 0px 2px;
     }
     .help-head {
         font-weight: 600;
@@ -53,7 +56,7 @@
        
     }
     .help{
-        padding: 0px 22px 0px 22px;
+        padding: 0px 22px 0px 2px;
     }
     .help-head {
         font-weight: 600;
