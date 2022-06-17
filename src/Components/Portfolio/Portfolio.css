@@ -1,0 +1,23 @@
+.nav{
+    --bs-nav-link-color:#091627 ;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.nav-tabs {
+    border: 0;
+    --bs-nav-tabs-border-width: 0px;
+    --bs-nav-tabs-link-active-color: white;
+    transition: all 0.3s ease-in;
+    --bs-nav-tabs-link-active-bg: #ee1313;
+    margin: 0 0px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-radius: 30px;
+    padding: 16px 24px;
+    margin: -10px 0 0 0;
+
+}
