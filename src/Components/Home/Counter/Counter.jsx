@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 
 const Counter = () => {
     return (
-        <div className='counter'>
+        <div className='container counter'>
 
             {/* <div className='count-text col-6 col-md-3'>
                 <h1> <span className='count'>120</span> +</h1>

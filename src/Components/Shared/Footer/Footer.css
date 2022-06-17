@@ -141,14 +141,16 @@
 
 @media only screen and (max-width: 667px) {
     .footer-main {
-        padding: 10px 25px;
+         
+        padding:5px 5px;
         margin-bottom: -150px;
+      
     }
 
     .footerTop-main {
-        padding: 40px 10px;
-        width: auto;
-        margin-bottom: 120px;
+        padding: 30px 5px;
+        margin-bottom: 180px;
+        width: 100%;
     }
 
     .footer-header h3 {

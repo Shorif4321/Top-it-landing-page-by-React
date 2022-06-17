@@ -1,0 +1,346 @@
+.service-banner {}
+
+.service-banner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    color: #091627;
+    text-align: left;
+}
+
+.service-banner h6 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #515D6D;
+    text-align: left;
+
+}
+
+.service-banner-img {}
+
+.service-banner-img img {}
+
+.navigation {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #091627;
+    margin: 100px 0 -60px 2px;
+
+}
+
+.service-page-items {
+    padding: 20px 0;
+
+}
+
+.service-page-items:hover {
+    /*  box-shadow: 0px 1px 35px grey; */
+    box-shadow: 0px 16px 15px 4px #8bb8f514;
+    padding: 20px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+
+/* .img-back{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #515D6D;
+    border-radius: 50px;
+    text-align: center;
+
+
+} */
+.service-page-items img {}
+
+.service-page-items h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #515D6D;
+    margin: 16px 0 0 0;
+}
+
+.service-identity {
+    text-align: left;
+}
+
+.service-span {
+    display: inline-block;
+    height: 2px;
+    width: 39px;
+    background-color: rgba(240, 69, 69, 0.95);
+    margin: 0px 0px 4px 5px;
+
+}
+
+.service-identity h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(240, 69, 69, 0.95);
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.service-identity h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #091627;
+    margin: 0;
+    padding: 0;
+
+}
+
+.service-identity p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #515D6D;
+    margin: 0;
+    padding: 0;
+}
+
+.service-identity h6 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #091627;
+    margin: 0;
+    padding: 0;
+}
+
+/* .identity-image img:hover {
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1.1)
+}
+ */
+.talk {
+    background: #FFF5F5;
+}
+
+.talk {}
+
+.talk h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #091627;
+}
+
+.talk p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #515D6D;
+}
+
+.talk button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 40px;
+    border: 1px solid rgba(240, 69, 69, 0.95);
+    background-color: rgba(240, 69, 69, 0.95);
+    border-radius: 30px;
+}
+.talk button:hover{
+    color: #091627;
+    background-color: #09162700;
+    transition: all 0.3s ease-in;
+}
+
+
+@media only screen and (max-width: 667px) {
+    .service-banner {}
+
+    .service-banner h1 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        margin: 18px 0px 0px 0px;
+    }
+
+    .service-banner h6 {
+        font-size: 17px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .service-banner-img {}
+
+    .service-banner-img img {}
+
+    .navigation {
+        display: none;
+        text-align: right;
+        font-size: 17px;
+        margin: 50px 5px 30px 0px;
+
+    }
+
+    .service-page-items {
+        margin: auto;
+        width: 70%;
+    }
+
+    .service-identity {
+        text-align: left;
+    }
+
+    .service-span {
+        width: 25px;
+    }
+
+    .service-identity h2 {
+        font-size: 25px;
+        line-height: 50px;
+
+    }
+
+    .service-identity p {
+        margin: 0px 0 0px 0;
+
+    }
+
+
+    .service-identity h6 {
+        font-size: 18px;
+        margin: 0px 0 0 0;
+    }
+
+/* =============  lets talk ============ */
+
+.talk h1 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.talk button {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 25px;
+}
+
+
+}
+/* 
+.identity-image {
+    width: 98%;
+    margin: auto;
+}
+ */
+
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .service-banner {}
+
+    .service-banner h1 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .service-banner h6 {
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .service-banner-img {
+        margin-top: 50px;
+        width: auto
+    }
+
+    .service-banner-img img {}
+
+    .navigation {
+        display: none;
+        text-align: left;
+        font-size: 17px;
+        margin: 50px 5px 30px 0px;
+
+    }
+    /* ====== service identity ======== */
+    .service-identity {
+        text-align: left;
+    }
+
+    .service-span {
+        width: 30px;
+    }
+
+    .service-identity h2 {
+        font-size: 35px;
+        line-height: 70px;
+
+    }
+
+    .service-identity p {
+        margin: 0px 0 0px 0;
+
+    }
+
+
+    .service-identity h6 {
+        font-size: 17px;
+        margin: 0px 0 0 0;
+    }
+
+    
+/* =============  lets talk ============ */
+
+.talk h1 {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.talk button {
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 30px;
+}
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

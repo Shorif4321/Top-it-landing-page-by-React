@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     opacity: 0.8;
-    padding: 100px 100px;
+    padding: 100px 10px;
 }
 .count-text h1 {
     font-family: 'Poppins', sans-serif;

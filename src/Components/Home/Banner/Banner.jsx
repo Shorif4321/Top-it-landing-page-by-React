@@ -3,9 +3,6 @@ import { Row, Col, Card } from 'react-bootstrap';
 import "./Banner.css";
 
 const Banner = () => {
-   
-
-
     return (
         <>
         <div className='banner-home container'>

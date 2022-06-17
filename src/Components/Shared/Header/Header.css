@@ -7,7 +7,7 @@
 .nav-items a {
     text-align: center;
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -18,7 +18,7 @@
    
 }
 .nav-items a:focus{
-    border-bottom: 3px solid red;
+    color: #F04545;
     transition: 0.3s ease-in;
 }
 

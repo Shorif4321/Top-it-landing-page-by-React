@@ -26,7 +26,9 @@ const Header = () => {
                                 <Nav.Link className='' > <Link to="/home">Home</Link></Nav.Link>
                                 <Nav.Link > <Link to="/service">Service</Link></Nav.Link>
                                 <Nav.Link > <Link to="/portfolio">Portfolio</Link></Nav.Link>
-                                <Nav.Link className='last-child ms-5'><Link to='/contact'>Let’s Talk</Link></Nav.Link>
+                                <Nav.Link > <Link to="/portfolio">About Us</Link></Nav.Link>
+                                <Nav.Link > <Link to="/portfolio">Blog</Link></Nav.Link>
+                                <Nav.Link className='last-child ms-md-5' ><Link to='/contact'>Let’s Talk</Link></Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                      
