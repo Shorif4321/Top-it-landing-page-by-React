@@ -1,0 +1,83 @@
+.aboutUs h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.005em;
+    color: #091627;
+    text-align: left;
+
+}
+
+.aboutUs p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    color: #515D6D;
+    text-align: left;
+}
+
+.aboutUs h6{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #091627;
+    text-align: left;
+
+}
+
+@media only screen and (max-width: 667px) {
+
+    .aboutUs h2 {
+        font-size: 25px;
+        margin: 15px 0 0 0;
+        line-height: 35px;
+        text-align: center;
+    
+    }
+    
+    .aboutUs p {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .aboutUs h6{
+        text-align: center;
+
+    }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .aboutUs h2 {
+        font-size: 35px;
+        margin: 20px 0 0 0;
+        line-height: 45px;
+        text-align: center;
+    
+    }
+    
+    .aboutUs p {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .aboutUs h6{
+        text-align: center;
+
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}
