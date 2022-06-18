@@ -1,23 +1,144 @@
-.nav{
-    --bs-nav-link-color:#091627 ;
+.nav {
+    --bs-nav-link-color: #091627;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
 }
+
 .nav-tabs {
-    border: 0;
-    --bs-nav-tabs-border-width: 0px;
+    /* 
+    border: 0; */
+    --bs-nav-tabs-border-width: px;
     --bs-nav-tabs-link-active-color: white;
     transition: all 0.3s ease-in;
     --bs-nav-tabs-link-active-bg: #ee1313;
     margin: 0 0px;
+    border-bottom: 1px solid #515d6d39;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
     border-radius: 30px;
     padding: 16px 24px;
-    margin: -10px 0 0 0;
+    margin: -10px 0 20px 0;
+}
 
+.show-allButton {
+    background-color: #F04545;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* ====== portfolio start ========== */
+.portfolio-last {
+    background: #FFF5F5;
+}
+
+.portfolio-talk h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #091627;
+    text-align: left;
+    margin: 0 0 16px 0;
+}
+
+.portfolio-talk p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #515D6D;
+    text-align: left;
+}
+
+.portfolio-last-button {
+    background: rgba(240, 69, 69, 0.95);
+    border-radius: 100px;
+    border: 1px solid rgba(240, 69, 69, 0.95);
+    padding: 16px 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.portfolio-last-button:hover {
+    background-color: #09162700;
+    color: #091627;
+    transition: all 0.3s ease-in ;
+}
+@media only screen and (max-width: 667px) {
+    .nav-tabs {
+        justify-content: left;
+        width: 100%;
+    }
+
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        border-radius: 30px;
+        padding: 12px 15px;
+        margin: 0px 0 0 0;
+    }
+    
+/* ====== portfolio start ========== */
+.portfolio-talk h2 {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.portfolio-talk p {
+    text-align: center;
+}
+
+.portfolio-last-button {
+    font-size: 18px;
+    width: 96%;
+}
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        border-radius: 30px;
+        padding: 16px 24px;
+        margin: 0px 0 0 0;
+    }
+    .portfolio-talk h2 {
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 0 17px 0;
+    }
+    
+    .portfolio-talk p {
+        text-align: center;
+        margin: 0 0 20px 0;
+        padding: 0px 40px;
+    }
+    .portfolio-last-button {
+        font-size: 18px;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {
+  
 }

@@ -3,7 +3,7 @@ import React from 'react';
 const Marketing = () => {
     return (
         <div>
-            <h1>This is Marketing</h1>
+            <h1>Service Coming Soon </h1>
         </div>
     );
 };

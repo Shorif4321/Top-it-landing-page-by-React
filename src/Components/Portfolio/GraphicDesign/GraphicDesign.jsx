@@ -3,7 +3,7 @@ import React from 'react';
 const GraphicDesign = () => {
     return (
         <div>
-            <h1>This is Graphic Design</h1>
+            <h1>Grapich Service Coming Soon </h1>
             
         </div>
     );

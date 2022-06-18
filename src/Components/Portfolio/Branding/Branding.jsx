@@ -3,7 +3,7 @@ import React from 'react';
 const Branding = () => {
     return (
         <div>
-            <h1>This is branding</h1>
+           <h1>Service Coming Soon </h1>
             
         </div>
     );
