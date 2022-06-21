@@ -1,4 +1,3 @@
-
 /* ====== portfolio start ========== */
 .portfolio-last {
     background: #FFF5F5;
@@ -37,13 +36,17 @@
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+    text-decoration: none;
 }
+
+
 
 .portfolio-last-button:hover {
     background-color: #09162700;
     color: #091627;
-    transition: all 0.3s ease-in ;
+    transition: all 0.3s ease-in;
 }
+
 @media only screen and (max-width: 667px) {
     .nav-tabs {
         justify-content: left;
@@ -56,45 +59,48 @@
         padding: 12px 15px;
         margin: 0px 0 0 0;
     }
-    
-/* ====== portfolio talk start ========== */
-.portfolio-talk h2 {
-    font-size: 25px;
-    line-height: 40px;
-    text-align: center;
-    margin: 0 0 15px 0;
-}
 
-.portfolio-talk p {
-    text-align: center;
-}
+    /* ====== portfolio talk start ========== */
+    .portfolio-talk h2 {
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
 
-.portfolio-last-button {
-    font-size: 18px;
-    width: 96%;
-}
+    .portfolio-talk p {
+        text-align: center;
+    }
+
+    .portfolio-last-button {
+        font-size: 18px;
+        width: 96%;
+    }
 
 }
 
 @media only screen and (max-width:991px) and (min-width:668px) {
+
     .nav-tabs .nav-item.show .nav-link,
     .nav-tabs .nav-link.active {
         border-radius: 30px;
         padding: 16px 24px;
         margin: 0px 0 0 0;
     }
+
     .portfolio-talk h2 {
         font-size: 35px;
         line-height: 40px;
         text-align: center;
         margin: 0 0 17px 0;
     }
-    
+
     .portfolio-talk p {
         text-align: center;
         margin: 0 0 20px 0;
         padding: 0px 40px;
     }
+
     .portfolio-last-button {
         font-size: 18px;
         width: 50%;
@@ -102,6 +108,4 @@
 
 }
 
-@media only screen and (max-width: 1200px) and (min-width:992px) {
-  
-}
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

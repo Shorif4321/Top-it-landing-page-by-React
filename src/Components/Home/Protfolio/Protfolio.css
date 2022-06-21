@@ -58,12 +58,12 @@
     padding: 25px;
     margin: -112px 0 0 0;
     display: none;
-    transition: 0.3s ease-in ;
+    transition: 0.3s ease-in;
 }
 
-.portfolio-hove:hover .portfolio-text{
+.portfolio-hove:hover .portfolio-text {
     display: block;
-    transition: 0.3s ease-in ;
+    transition: 0.3s ease-in;
 }
 
 .portfolio-text p {
@@ -85,43 +85,47 @@
     margin: 0px 0px 0px 0;
 }
 
-.latest-project-button{
+.latest-project-button {
     background-color: #F04545;
     color: white;
     padding: 16px 35px;
     border-radius: 30px;
     border: 1px solid #F04545;
 }
-.latest-project-button:hover{
+
+.latest-project-button:hover {
     background-color: #f0454500;
     color: black;
     border: 1px solid #F04545;
     transition: 0.3s ease-in;
 }
-.icon-button{
+
+.icon-button {
     color: white !important;
 }
-.icon-button:hover{
+
+.icon-button:hover {
     color: black !important;
 }
 
-@media only screen and (max-width: 667px) { 
+@media only screen and (max-width: 667px) {
     .protfolio-head {
         display: block !important;
     }
-    
+
     .latest-project {
-       margin: 20px 0 0 0;
-       text-align: center;
+        margin: 20px 0 0 0;
+        text-align: center;
     }
-    
+
     .latest-head {
         font-size: 25px;
         line-height: 60px;
         text-align: center;
+        line-height: 35px;
         padding: 0;
     }
-    
+
     .leftarrow {
         height: 40px;
         width: 40px;
@@ -129,17 +133,18 @@
         margin-right: 10px;
         color: #091627;
     }
-    
+
     .rightarrow {
         height: 40px;
         width: 40px;
     }
-    
+
     .portfolio {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px 0px;
         padding: 0px 20px;
     }
+
     .portfolio-text {
         text-align: center;
         background: #091627;
@@ -149,76 +154,79 @@
         padding: 20px;
         margin: -95px 0 0 0;
     }
-    
+
     .portfolio-text p {
         font-size: 16px;
         margin: 0px 0px 7px 0;
-    
+
     }
-    
-    .portfolio-text h5 {
-        font-weight: 500px;
-        font-size: 20px;
-        line-height: 28px;
-    }
- }
-@media only screen and (max-width:991px) and (min-width:668px){
-    .protfolio-head {
-        display: block !important;
-    }
-    
-   
-    
-    .latest-project {
-       margin: 20px 0 0 0;
-       text-align: center;
-    }
-    
-    .latest-head {
-        font-size: 25px;
-        line-height: 60px;
-        text-align: center;
-        padding: 0;
-    }
-    
-    .leftarrow {
-        height: 40px;
-        width: 40px;
-        opacity: 30%;
-        margin-right: 10px;
-        color: #091627;
-    }
-    
-    .rightarrow {
-        height: 40px;
-        width: 40px;
-    }
-    
-    .portfolio {
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px 0px;
-        padding: 0px 20px;
-    }
-    .portfolio-text {
-        text-align: center;
-        background: #091627;
-        mix-blend-mode: multiply;
-        opacity: 0.5;
-        border-radius: 0px 0px 16px 16px;
-        padding: 20px;
-        margin: -95px 0 0 0;
-    }
-    
-    .portfolio-text p {
-        font-size: 16px;
-        margin: 0px 0px 7px 0;
-    
-    }
-    
+
     .portfolio-text h5 {
         font-weight: 500px;
         font-size: 20px;
         line-height: 28px;
     }
 }
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .protfolio-head {
+        display: block !important;
+    }
+
+
+
+    .latest-project {
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+
+    .latest-head {
+        font-size: 25px;
+        line-height: 60px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .leftarrow {
+        height: 40px;
+        width: 40px;
+        opacity: 30%;
+        margin-right: 10px;
+        color: #091627;
+    }
+
+    .rightarrow {
+        height: 40px;
+        width: 40px;
+    }
+
+    .portfolio {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px 0px;
+        padding: 0px 20px;
+    }
+
+    .portfolio-text {
+        text-align: center;
+        background: #091627;
+        mix-blend-mode: multiply;
+        opacity: 0.5;
+        border-radius: 0px 0px 16px 16px;
+        padding: 20px;
+        margin: -95px 0 0 0;
+    }
+
+    .portfolio-text p {
+        font-size: 16px;
+        margin: 0px 0px 7px 0;
+
+    }
+
+    .portfolio-text h5 {
+        font-weight: 500px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
 @media only screen and (max-width: 1200px) and (min-width:992px) {}

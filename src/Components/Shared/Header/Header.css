@@ -2,6 +2,7 @@
     display: flex !important;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 0px 0px 0px;
 }
 
 .nav-items a {
@@ -14,10 +15,11 @@
     line-height: 27px;
     letter-spacing: 0.005em;
     color: #091627;
-    margin: 0px 0px 0px 20px;
-   
+    padding: 14px 10px;
+
 }
-.nav-items a:focus{
+
+.nav-items a:focus {
     color: #F04545;
     transition: 0.3s ease-in;
 }
@@ -32,12 +34,19 @@
     color: #FFFFFF !important;
     background: rgba(240, 69, 69, 0.95);
     border-radius: 100px;
-    padding: 16px 40px;
+    padding: 14px 36px;
     border: 1px solid #F04545;
-
 }
-.last-child a{
-    padding: 16px 40px;
+
+.last-child a {
+    color: white;
+    padding: 14px 36px;
+}
+
+.last-child a:hover,
+.focus {
+    color: #091627 !important;
+
 }
 
 .last-child:hover {
@@ -46,8 +55,10 @@
     color: #091627 !important;
     transition: 0.3s;
 }
-.last-child a:focus{
+
+.last-child a:focus {
     border-bottom: 0px solid rgba(255, 0, 0, 0);
+    color: white !important;
 }
 
 @media only screen and (max-width: 667px) {

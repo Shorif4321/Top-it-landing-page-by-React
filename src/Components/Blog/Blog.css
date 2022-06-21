@@ -1,0 +1,133 @@
+.blog-small {
+    display: flex;
+    align-items: center;
+    margin: 18px 0 19px 0;
+
+}
+
+.blog-small h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.005em;
+    color: #515D6D;
+
+}
+
+.font-awesome {
+    margin: 0 15px 0 0px;
+    font-size: 18px;
+}
+
+.blog {
+    text-align: left;
+}
+
+.blog-author {
+    display: flex;
+}
+
+.blog h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #091627;
+    text-align: left;
+    margin: 0px 0 18px 0;
+}
+
+.blog p {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #515D6D;
+}
+
+.read-box {
+    display: inline;
+}
+
+.read-more {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #091627;
+
+}
+
+
+@media only screen and (max-width: 667px) {
+    .blog-small {
+        display: flex;
+        margin: 20px 0 -10px 0;
+
+    }
+
+    .font-awesome {
+        font-size: 17px;
+    }
+
+    .blog {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog-author {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .blog h2 {
+        line-height: 35px;
+        text-align: center;
+        margin: 30px 0 18px 0;
+    }
+
+    .blog p {
+        text-align: center;
+        line-height: 28px;
+        color: #515D6D;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .blog-small {
+        display: flex;
+        margin: 20px 0 -10px 0;
+
+    }
+
+    .font-awesome {
+        font-size: 17px;
+    }
+
+    .blog-author {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        margin: 20px 0px 0 0;
+    }
+
+    .blog h2 {
+        text-align: left;
+        margin: 30px 0 18px 0;
+    }
+
+    .blog p {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

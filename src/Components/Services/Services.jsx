@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Services.css"
 import seviceImage from "../../Images/servicesHead.png"
 import right from "../../Images/rightServiceArrow.png"
@@ -11,6 +12,7 @@ import image5 from "../../Images/05.png"
 import image6 from "../../Images/06.png"
 import { useState } from 'react';
 import { useEffect } from 'react';
+
 
 const Services = () => {
     const [servicesn, setServicesn] = useState([])
@@ -184,8 +186,8 @@ const Services = () => {
             <div className='talk'>
                 <div className=" container py-5 my-5 col-10 col-md-8 col-lg-6">
                     <h1>Let’s talk about the Project!</h1>
-                    <p>Our clients get the best results when they have our team dedicated to their business for extended periods of time.</p>
-                    <button>Let’s Talk</button>
+                    <p className='pb-4'>Our clients get the best results when they have our team dedicated to their business for extended periods of time.</p>
+                    <Link to="/contact" className="portfolio-last-button">Let’s Talk</Link>
                 </div>
             </div>
 

@@ -1,0 +1,230 @@
+.contact-hero h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #091627;
+}
+
+.contact-hero p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #515D6D;
+}
+
+.contact-from h6 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.24em;
+    color: rgba(240, 69, 69, 0.95);
+    margin: 0px 0 16px 0;
+}
+
+.contact-from h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #091627;
+
+}
+
+.contact-custom {
+    text-align: left;
+}
+
+.contact-custom label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #091627;
+    margin: 0 0 16px 0;
+}
+
+.contact-custom span {
+    color: rgba(240, 69, 69, 0.95)
+}
+
+.form-control {
+    height: 64px;
+}
+
+.contact-custom textarea {
+    border: 1px solid #c5cace;
+    border-radius: 8px;
+    padding: 14px 15px;
+    margin: 15px 0 0;
+
+}
+
+.contact-custom textarea:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.iconBOx:hover {
+    box-shadow: 0px 16px 15px 4px #8bb8f514;
+    transition: all 0.3s ease-in;
+    border-radius: 30px;
+
+}
+
+.from-icon h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #091627;
+    margin: 16px 0 16px 0;
+
+}
+
+.from-icon p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #515D6D;
+
+}
+
+.google-map {
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 667px) {
+    .contact-hero h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .contact-hero p {
+        font-size: 17px;
+        line-height: 30px;
+        margin-bottom: 35px;
+    }
+
+    .contact-from h6 {
+        font-size: 16px;
+        margin: 0px 0 10px 0;
+    }
+
+    .contact-from h3 {
+        text-align: left;
+        font-size: 25px;
+        line-height: 35px;
+
+    }
+
+    .contact-custom label {
+        margin: 0 0 10px 0;
+    }
+
+
+    .form-control {
+        height: 50px;
+    }
+
+    .contact-custom textarea {
+        padding: 10px 10px;
+
+    }
+
+    .contact-button button {
+        width: 100%;
+    }
+
+    .from-icon h5 {
+        font-size: 23px;
+        line-height: 25px;
+        margin: 20px 0 16px 0;
+
+    }
+
+    .from-icon p {
+        margin: 0;
+
+    }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .contact-hero {}
+
+    .contact-hero h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .contact-hero p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .contact-from h6 {
+        text-align: left;
+        font-size: 17px;
+        margin: 0px 0 15px 0;
+    }
+
+    .contact-from h3 {
+        text-align: left;
+        font-size: 35px;
+        line-height: 45px;
+
+    }
+
+    .contact-custom label {
+        margin: 0 0 15px 0;
+    }
+
+
+    .form-control {
+        height: 55px;
+    }
+
+    .contact-custom textarea {
+        padding: 15px 15px;
+
+    }
+
+    .contact-button {
+        text-align: center;
+    }
+
+    .from-icon h5 {
+        font-size: 24px;
+        line-height: 35px;
+        margin: 20px 0 16px 0;
+
+    }
+
+    .from-icon p {
+        margin: 0;
+
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}
