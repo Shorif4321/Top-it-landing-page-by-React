@@ -56,9 +56,6 @@ const SliderHome = () => {
             <div className='mx-2'>
                 <img className='img-fluid' src={sliderImage1} alt="" />
             </div>
-            <div className='mx-2'>
-                <img className='img-fluid' src={sliderImage} alt="" />
-            </div>
         </Slider>
     </div>
 

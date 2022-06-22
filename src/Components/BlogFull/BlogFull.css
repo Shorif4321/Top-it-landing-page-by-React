@@ -1,0 +1,156 @@
+.share {
+    display: flex;
+    text-decoration: none;
+    margin: 32px 0 40px 0;
+}
+
+.share p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+.share img {
+    width: 24px;
+    height: 24px;
+}
+
+.link-style {
+    text-decoration: none;
+}
+
+.review-section {
+    border: 1px solid #c5cace;
+    border-radius: 16px;
+
+}
+
+.review-section img {}
+
+.review-section h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #091627;
+
+}
+
+.review-section p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #515D6D;
+
+}
+
+.view-all {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #091627;
+    text-decoration: none;
+
+}
+
+.comment {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+.reply {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 16px 27px;
+    background: rgba(240, 69, 69, 0.95);
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid rgba(240, 69, 69, 0.95);
+    margin: 0px 0px 0px -110px;
+}
+
+.reply:hover {
+    background-color: #00000000;
+    color: #091627;
+}
+
+@media only screen and (max-width: 667px) {
+    .share {
+        display: block;
+        text-decoration: none;
+        margin: 50px 0 30px 0;
+    }
+
+    .share img:hover {
+        border: 2px solid rgba(240, 69, 69, 0.95);
+
+    }
+
+    .review-section {
+        border: 1px solid #c5cace;
+        border-radius: 16px;
+
+    }
+
+    .review-section img {}
+
+    .review-section h3 {
+        text-align: center;
+        font-size: 23px;
+        margin: 25px 0 15px 0;
+    }
+
+
+    .reply {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 0px 0px 0px -10px;
+    }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+
+    .share img:hover {
+        border: 2px solid rgba(240, 69, 69, 0.95);
+
+    }
+
+    .review-section {
+        border: 1px solid #c5cace;
+        border-radius: 16px;
+
+    }
+
+    .review-section img {}
+
+    .review-section h3 {
+        margin: 50px 0 25px 0;
+    }
+
+
+    .reply {
+        font-size: 16px;
+        padding: 12px 22px;
+        margin: 0px 0px 0px -10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

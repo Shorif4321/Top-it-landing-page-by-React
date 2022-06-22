@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Blog from './Components/Blog/Blog';
+import BlogFull from './Components/BlogFull/BlogFull';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Home from './Components/Home/Home';
 import Portfolio from './Components/Portfolio/Portfolio';
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contact" element={<ContactUs></ContactUs>} />
           <Route path="/project" element={<ProjectPage></ProjectPage>} />
           <Route path="/blog" element={<Blog></Blog>} />
+          <Route path="/blog-full" element={<BlogFull></BlogFull>} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
