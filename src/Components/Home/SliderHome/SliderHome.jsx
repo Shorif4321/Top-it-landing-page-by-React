@@ -56,6 +56,9 @@ const SliderHome = () => {
             <div className='px-1 slider-items'>
                 <img className='img-fluid' src={sliderImage1} alt="" />
             </div>
+            <div className='px-1 slider-items'>
+                <img className='img-fluid' src={sliderImage2} alt="" />
+            </div>
         </Slider>
     </div>
 

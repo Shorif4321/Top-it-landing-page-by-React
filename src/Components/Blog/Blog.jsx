@@ -58,7 +58,7 @@ const Blog = () => {
 
                         <h2>Agency vs Freelancer for Your Digital Products</h2>
                         <div className='read-box'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/read"> Read More ...</Link></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
                     </div>
                     {/* =======blog Main 1 ======== */}
@@ -85,7 +85,7 @@ const Blog = () => {
 
                         <h2>Agency vs Freelancer for Your Digital Products</h2>
                         <div className='read-box'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/read"> Read More ...</Link></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
                     </div>
                     {/* =======blog Main 1 ======== */}
@@ -112,7 +112,7 @@ const Blog = () => {
 
                         <h2>Agency vs Freelancer for Your Digital Products</h2>
                         <div className='read-box'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/read"> Read More ...</Link></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
                     </div>
                     {/* =======blog Main 1 ======== */}
@@ -139,7 +139,7 @@ const Blog = () => {
 
                         <h2>Agency vs Freelancer for Your Digital Products</h2>
                         <div className='read-box'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/read"> Read More ...</Link></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
                     </div>
                     {/* =======blog Main 1 ======== */}
@@ -166,7 +166,7 @@ const Blog = () => {
 
                         <h2>Agency vs Freelancer for Your Digital Products</h2>
                         <div className='read-box'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/read"> Read More ...</Link></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
                     </div>
                 </div>

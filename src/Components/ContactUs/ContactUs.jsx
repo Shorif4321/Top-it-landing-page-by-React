@@ -9,18 +9,18 @@ import Map from '../Shared/Map/Map';
 const ContactUs = () => {
     return (
         <>
-            <div className='contact-hero container col-11 col-md-8 col-lg-5 m-auto my-md-5'>
+            {/*    <div className='contact-hero container col-11 col-md-8 col-lg-5 m-auto my-md-5'>
                 <h2>Contact  Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim convallis varius ut in.
                 </p>
 
             </div>
-            {/*  <div className='container pb-5'>
+             <div className='container pb-5'>
                 <p className='navigation text-left'>Home <img className='mx-3' src={right} alt="" /> Service</p>
             </div> */}
 
             {/* ========== contact from heading ========== */}
-            <section className='contact-from container'>
+            <section className='contact-from container mt-5 pt-5'>
                 <div className='mb-md-5'>
                     <h6>Contact Us</h6>
                     <h3>We Want to Hear from You</h3>
@@ -40,8 +40,8 @@ const ContactUs = () => {
                     </div>
                     <div className="col-md-6">
                         <label for="inputEmail4" className="form-label">Your Number</label>
-                        <input type="number"
-                            placeholder='Your Number...' className="form-control" id="inputEmail4" />
+                        <input min="0" type="number"
+                            placeholder='Your Number...' className="form-control number-input" id="inputEmail4" />
                     </div>
 
                     <div className="col-12">

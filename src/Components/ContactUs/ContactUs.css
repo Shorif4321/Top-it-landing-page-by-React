@@ -114,6 +114,13 @@
     border-radius: 30px;
 }
 
+/* =========== input number button icon remove =========== */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 @media only screen and (max-width: 667px) {
     .contact-hero h2 {
         font-size: 25px;

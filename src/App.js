@@ -4,6 +4,7 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import Blog from './Components/Blog/Blog';
 import BlogFull from './Components/BlogFull/BlogFull';
 import ContactUs from './Components/ContactUs/ContactUs';
+import Error from './Components/Error/Error';
 import Home from './Components/Home/Home';
 import Portfolio from './Components/Portfolio/Portfolio';
 import ProjectPage from './Components/ProjectPage/ProjectPage';
@@ -26,6 +27,7 @@ function App() {
           <Route path="/project" element={<ProjectPage></ProjectPage>} />
           <Route path="/blog" element={<Blog></Blog>} />
           <Route path="/blog-full" element={<BlogFull></BlogFull>} />
+          <Route path="*" element={<Error></Error>} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
