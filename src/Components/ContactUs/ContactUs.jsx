@@ -31,11 +31,11 @@ const ContactUs = () => {
                         <input type="email" className="form-control" placeholder='Full Name...' id="inputEmail4" />
                     </div>
                     <div className="col-md-6">
-                        <label for="inputEmail4" className="form-label text-left">Your Email *</label>
+                        <label for="inputEmail4" className="form-label text-left">Your Email <span>*</span></label>
                         <input type="email" className="form-control" placeholder='Your Email...' id="inputEmail4" />
                     </div>
                     <div className="col-md-6">
-                        <label for="inputPassword4" className="form-label">Subject *</label>
+                        <label for="inputPassword4" className="form-label">Subject  <span>*</span></label>
                         <input type="text" className="form-control" placeholder='Your Subject...' id="inputPassword4" />
                     </div>
                     <div className="col-md-6">

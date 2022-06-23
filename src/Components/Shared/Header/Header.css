@@ -39,7 +39,7 @@
 }
 
 .last-child a {
-    color: white;
+    color: white !important;
     padding: 14px 36px;
 }
 
@@ -58,7 +58,7 @@
 
 .last-child a:focus {
     border-bottom: 0px solid rgba(255, 0, 0, 0);
-    color: white !important;
+    color: #091627 !important;
 }
 
 @media only screen and (max-width: 667px) {
