@@ -2,19 +2,27 @@
     color: #F04545 !important;
     font-size: 15px !important;
 }
+
 .slick-dots li button:before {
     color: #9d2121 !important;
     font-size: 15px !important;
-    margin: 20px 0 0 0; 
+    margin: 20px 0 0 0;
 }
+
 @media only screen and (max-width: 667px) {
-    .slider{
+    .slider {
         display: none;
     }
 }
-@media only screen and (max-width:991px) and (min-width:668px){
-    .slider{
-      display: none;
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .slider {
+        display: none;
     }
 }
-@media only screen and (max-width: 1200px) and (min-width:992px) {}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {
+    .slick-slider img {
+        widows: 65%;
+    }
+}

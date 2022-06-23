@@ -24,7 +24,6 @@ const Header = () => {
                             <Nav.Link > <Link to="/portfolio">Portfolio</Link></Nav.Link>
                             <Nav.Link > <Link to="/about-us">About Us</Link></Nav.Link>
                             <Nav.Link > <Link to="/blog">Blog</Link></Nav.Link>
-                            <Nav.Link > <Link to="/blog-full">Blog-full</Link></Nav.Link>
                             <Nav.Link className='last-child ms-md-3' ><Link to='/contact'>Let’s Talk</Link></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

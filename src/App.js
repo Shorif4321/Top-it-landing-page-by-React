@@ -10,11 +10,6 @@ import ProjectPage from './Components/ProjectPage/ProjectPage';
 import Services from './Components/Services/Services';
 import Footer from './Components/Shared/Footer/Footer';
 import Header from './Components/Shared/Header/Header';
-
-
-
-
-
 function App() {
 
   return (

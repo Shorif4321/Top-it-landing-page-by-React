@@ -5,23 +5,6 @@ import CountUp from 'react-countup';
 const Counter = () => {
     return (
         <div className='container counter'>
-
-            {/* <div className='count-text col-6 col-md-3'>
-                <h1> <span className='count'>120</span> +</h1>
-               
-            </div>
-            <div className='count-text col-6 col-md-3'>
-                <h1><span className='count'>1.2</span> k</h1>
-                
-            </div>
-            <div className='count-text col-6 col-md-3 '>
-                <h1><span className='count'>90</span>%</h1>
-              
-            </div>
-            <div className='count-text col-6 col-md-3'>
-                <h1><span className='count'>100</span>+</h1>
-             
-            </div> */}
             <div className='count-text col-6 col-md-3'>
                 <CountUp
                     start={0}
@@ -40,7 +23,7 @@ const Counter = () => {
                 </CountUp>
             </div>
 
-            <div  className='count-text col-6 col-md-3'>
+            <div className='count-text col-6 col-md-3'>
                 <CountUp
                     start={0}
                     end={1.2}
@@ -58,7 +41,7 @@ const Counter = () => {
                 </CountUp>
             </div>
 
-            <div  className='count-text col-6 col-md-3'>
+            <div className='count-text col-6 col-md-3'>
                 <CountUp
                     start1={0}
                     end={90}
@@ -76,7 +59,7 @@ const Counter = () => {
                 </CountUp>
             </div>
 
-            <div  className='count-text col-6 col-md-3'>
+            <div className='count-text col-6 col-md-3'>
                 <CountUp
                     start1={0}
                     end={100}

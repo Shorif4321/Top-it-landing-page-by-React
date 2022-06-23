@@ -47,13 +47,13 @@ const SliderHome = () => {
     return (<div className='slider container'>
 
         <Slider {...settings}>
-            <div className='mx-2'>
+            <div className='px-1 slider-items'>
                 <img className='img-fluid' src={sliderImage} alt="" />
             </div>
-            <div className='mx-2'>
+            <div className='px-1 slider-items'>
                 <img className='img-fluid' src={sliderImage2} alt="" />
             </div>
-            <div className='mx-2'>
+            <div className='px-1 slider-items'>
                 <img className='img-fluid' src={sliderImage1} alt="" />
             </div>
         </Slider>

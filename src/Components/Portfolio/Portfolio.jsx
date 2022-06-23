@@ -40,24 +40,25 @@ const Portfolio = () => {
                         defaultActiveKey="show-all"
                         transition={false}
                         id="noanim-tab-example"
-                        className="my-5"
+                        className="tabs-nav"
                     >
-                        <Tab className="" eventKey="show-all" title="Show All">
+                        <Tab className="mt-4" eventKey="show-all" title="Show All">
                             <Showall />
                         </Tab>
-                        <Tab className="" eventKey="branding" title="Branding">
+
+                        <Tab className="mt-4" eventKey="branding" title="Branding">
                             <Branding />
                         </Tab>
-                        <Tab className="" eventKey="development" title=" Development">
+                        <Tab className="mt-4" eventKey="development" title=" Development">
                             <Development />
                         </Tab>
-                        <Tab eventKey="Graphic-Design" title="Graphic Design">
+                        <Tab className='mt-4' eventKey="Graphic-Design" title="Graphic Design">
                             <GraphicDesign />
                         </Tab>
-                        <Tab className="" eventKey="Marketing" title="Marketing">
+                        <Tab className="mt-4" eventKey="Marketing" title="Marketing">
                             <GraphicDesign />
                         </Tab>
-                        <Tab className="" eventKey="SEO" title="SEO">
+                        <Tab className="mt-4" eventKey="SEO" title="SEO">
                             <SEO />
                         </Tab>
                     </Tabs>
