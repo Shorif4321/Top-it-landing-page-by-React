@@ -2,7 +2,8 @@
     background-color: #091627;
 }
 
-.footerTop-main {/* 
+.footerTop-main {
+    /* 
     background-image: url(../../../Images/WhatsApp\ Image\ 2022-06-15\ at\ 1.45.26\ PM.jpeg); */
     background-image: url(../../../Images/pattern.png);
     background-blend-mode: multiply;
@@ -77,7 +78,7 @@
     margin: 30px 0px;
 }
 
-.social1 {
+/* .social1 {
     color: white;
     text-align: center;
     margin-right: 24px;
@@ -86,7 +87,7 @@
     height: 40px;
     border: 1px solid #7a7975;
     border-radius: 100%;
-}
+} */
 
 .social {
     color: white;
@@ -97,6 +98,12 @@
     height: 40px;
     border: 1px solid #7a7975;
     border-radius: 100%;
+}
+
+.social:hover {
+    color: white;
+    border: 1px solid #F04545;
+    background-color: #F04545;
 }
 
 .footer-head {
@@ -122,6 +129,10 @@
     margin-top: 10px;
 }
 
+.footer-link:hover {
+    color: #F04545;
+}
+
 .divider {
     display: block;
     opacity: 0.1;
@@ -141,10 +152,10 @@
 
 @media only screen and (max-width: 667px) {
     .footer-main {
-         
-        padding:5px 5px;
+
+        padding: 5px 5px;
         margin-bottom: -150px;
-      
+
     }
 
     .footerTop-main {
@@ -208,7 +219,7 @@
 @media only screen and (max-width:991px) and (min-width:668px) {
     .footer-sections {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .footer-main {

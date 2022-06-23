@@ -19,7 +19,7 @@ const AboutUs = () => {
                         <h6 className=''>We make digital growth simple for small businesses. We consult with you to understand what stage your business is at, what digital problems you are currently facing, and how we can structure the scaling of your business into understandable steps with realistic timelines.
                         </h6>
                     </div>
-                    <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Service</p>
+                    {/*  <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Service</p> */}
                 </div>
                 <div className='col-12 col-md-12 col-lg-4'>
                     <div className='service-banner-img'>

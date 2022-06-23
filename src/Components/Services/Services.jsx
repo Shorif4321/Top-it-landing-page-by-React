@@ -37,7 +37,7 @@ const Services = () => {
                         <h1>We help our clients to recognize and develop their own identity</h1>
                         <h6>The recipe to do that is by focusing and deeply understanding the single elements of a new project to gradually make them part of an inspiring seamless whole, add creativity to taste!</h6>
                     </div>
-                    <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Service</p>
+                    {/*   <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Service</p> */}
                 </div>
                 <div className='col-12 col-md-12 col-lg-4'>
                     <div className='service-banner-img'>

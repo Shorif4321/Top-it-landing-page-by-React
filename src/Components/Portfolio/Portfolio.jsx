@@ -24,7 +24,7 @@ const Portfolio = () => {
                         <h1>Best solutions for your business</h1>
                         <h6>A quick view of industry specific problems solved with design by the awesome team at Keystroke.</h6>
                     </div>
-                    <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Portfolio</p>
+                    {/*   <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Portfolio</p> */}
                 </div>
                 <div className='col-12 col-md-12 col-lg-4'>
                     <div className='service-banner-img'>

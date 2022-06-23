@@ -26,9 +26,9 @@ const Blog = () => {
                     </p>
 
                 </div>
-                <div className='container pb-5'>
-                    <p className='navigation text-left'>Home <img className='mx-3' src={right} alt="" /> Blog</p>
-                </div>
+                {/* <div className='container pb-5'>
+                      <p className='navigation text-left'>Home <img className='mx-3' src={right} alt="" /> Blog</p> 
+                </div> */}
             </section>
 
             {/* =======blog Main start ======== */}

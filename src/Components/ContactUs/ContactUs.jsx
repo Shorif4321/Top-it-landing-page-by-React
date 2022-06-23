@@ -15,9 +15,9 @@ const ContactUs = () => {
                 </p>
 
             </div>
-            <div className='container pb-5'>
+            {/*  <div className='container pb-5'>
                 <p className='navigation text-left'>Home <img className='mx-3' src={right} alt="" /> Service</p>
-            </div>
+            </div> */}
 
             {/* ========== contact from heading ========== */}
             <section className='contact-from container'>
