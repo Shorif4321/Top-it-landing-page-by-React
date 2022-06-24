@@ -19,6 +19,7 @@ import image5 from "../../Images/05.png"
 import image6 from "../../Images/06.png"
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Services = () => {
@@ -31,9 +32,11 @@ const Services = () => {
 
     return (
         <>
-            <div className='container d-lg-flex justify-content-between align-items-center my-5'>
+            <div id='service' className='container d-lg-flex justify-content-between align-items-center my-5' data-aos="fade-up"
+                data-aos-duration="500">
                 <div className='col-12 col-md-12 col-lg-5'>
-                    <div className='service-banner'>
+                    <div className='service-banner' data-aos="fade-up"
+                        data-aos-duration="1000">
                         <h1>We help our clients to recognize and develop their own identity</h1>
                         <h6>The recipe to do that is by focusing and deeply understanding the single elements of a new project to gradually make them part of an inspiring seamless whole, add creativity to taste!</h6>
                     </div>
@@ -48,7 +51,8 @@ const Services = () => {
 
             {/*============= service item start =========== */}
             <div className='container mt-5 d-flex flex-wrap py-5 px-sm-2 px-md-5 '>
-                <div className='col-12 col-md-6 col-lg service-page-items my-4'>
+                <div className='col-12 col-md-6 col-lg service-page-items my-4' data-aos="flip-left"
+                    data-aos-duration="1000">
                     <a href="#serviceOne" className='text-decoration-none'>
                         <div>
                             <img src={serviceName1} alt="" />
@@ -57,7 +61,8 @@ const Services = () => {
                         </h4>
                     </a>
                 </div>
-                <div className='col-12 col-md-6 col-lg service-page-items my-4'>
+                <div className='col-12 col-md-6 col-lg service-page-items my-4' data-aos="flip-left"
+                    data-aos-duration="1000">
                     <a href="#serviceTwo" className='text-decoration-none'>
                         <div>
                             <img src={serviceName2} alt="" />
@@ -66,7 +71,8 @@ const Services = () => {
                         </h4>
                     </a>
                 </div>
-                <div className='col-12 col-md-6 col-lg service-page-items my-4'>
+                <div className='col-12 col-md-6 col-lg service-page-items my-4' data-aos="flip-left"
+                    data-aos-duration="1000">
                     <a href="#serviceThree" className='text-decoration-none'>
                         <div>
                             <img src={serviceName3} alt="" />
@@ -76,7 +82,8 @@ const Services = () => {
                         </h4>
                     </a>
                 </div>
-                <div className='col-12 col-md-6 col-lg service-page-items my-4'>
+                <div className='col-12 col-md-6 col-lg service-page-items my-4' data-aos="flip-left"
+                    data-aos-duration="1000">
                     <a href="#serviceFour" className='text-decoration-none'>
                         <div>
                             <img src={serviceName4} alt="" />
@@ -85,7 +92,8 @@ const Services = () => {
                         </h4>
                     </a>
                 </div>
-                <div className='col-12 col-md-6 col-lg service-page-items my-4'>
+                <div className='col-12 col-md-6 col-lg service-page-items my-4' data-aos="flip-left"
+                    data-aos-duration="1000">
                     <a href="#serviceFive" className='text-decoration-none'>
                         <div>
                             <img src={serviceName5} alt="" />
@@ -95,7 +103,8 @@ const Services = () => {
                         </h4>
                     </a>
                 </div>
-                <div className='col-12 col-md-6 col-lg service-page-items my-4'>
+                <div className='col-12 col-md-6 col-lg service-page-items my-4' data-aos="flip-left"
+                    data-aos-duration="1000">
                     <a href="#serviceSix" className='text-decoration-none'>
                         <div>
                             <img src={serviceName6} alt="" />
@@ -121,7 +130,8 @@ const Services = () => {
 
             {/*============= service identity1 =========== */}
             <div id='serviceOne' className="service-identity d-lg-flex justify-content-between align-items-center container mb-5 pb-5">
-                <div className="col-12 col-md-12 col-lg-6">
+                <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>Branding & Identity</h2>
                     <p>Brand Identity is who you are as a business or organization, and that statement needs to be strong and clear, resonating throughout all aspects of your business decisions. Whether you’re launching a new brand, or in need of a fresh update, we create a defined awareness between you and your consumer, for a lasting impression. Aumcore has launched brands from birth including Logo Design, Voice Development, Copywriting, and more. As a 360˚ marketing agency, our specialty is providing you with the full spectrum of services you’ll require to create or refresh an impressive brand Identity package.
@@ -150,7 +160,8 @@ const Services = () => {
                         <img className='img-fluid ' src={image2} alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-12 col-lg-6">
+                <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>SAAS Development</h2>
                     <p>We have experts who are proficient in the technologies needed to build a SaaS solution for your business, and we have a good understanding of what real-world challenges SaaS product development services can solve for you and your customers. What we provide is well-organized and configurable software. Your end users can access this software from anywhere with only a few clicks. And you can start saving on hardware, servers, and in-house IT specialists without compromising on user experience and functionality.
@@ -168,7 +179,8 @@ const Services = () => {
 
             {/*============= service identity3 =========== */}
             <div id='serviceThree' className="service-identity d-lg-flex justify-content-between align-items-center container mb-5 pb-5">
-                <div className="col-12 col-md-12 col-lg-6">
+                <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>Graphic Design</h2>
                     <p>
@@ -199,7 +211,8 @@ const Services = () => {
                         <img className='img-fluid ' src={image4} alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-12 col-lg-6">
+                <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>Web Design & Development</h2>
                     <p>
@@ -219,7 +232,8 @@ const Services = () => {
 
             {/*============= service identity6 =========== */}
             <div id='serviceFive' className="service-identity d-lg-flex justify-content-between align-items-center container mb-5 pb-5">
-                <div className="col-12 col-md-12 col-lg-6">
+                <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>Affiliate Marketing</h2>
                     <p>
@@ -249,7 +263,8 @@ const Services = () => {
                         <img className='img-fluid ' src={image6} alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-12 col-lg-6">
+                <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>SEO & Digital Marketing</h2>
                     <p>
@@ -270,10 +285,10 @@ const Services = () => {
 
             {/*============= Let's Talk  =========== */}
             <div className='talk'>
-                <div className=" container py-5 my-5 col-10 col-md-8 col-lg-6">
+                <div className=" container py-5 col-10 col-md-8 col-lg-6">
                     <h1>Let’s talk about the Project!</h1>
                     <p className='pb-4'>Our clients get the best results when they have our team dedicated to their business for extended periods of time.</p>
-                    <Link to="/contact" className="portfolio-last-button">Let’s Talk</Link>
+                    <HashLink to="/contact/#contact" className="portfolio-last-button">Let’s Talk</HashLink>
                 </div>
             </div>
 

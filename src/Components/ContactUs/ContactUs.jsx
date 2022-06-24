@@ -20,7 +20,7 @@ const ContactUs = () => {
             </div> */}
 
             {/* ========== contact from heading ========== */}
-            <section className='contact-from container mt-5 pt-5'>
+            <section id='contact' className='contact-from container pt-5'>
                 <div className='mb-md-5'>
                     <h6>Contact Us</h6>
                     <h3>We Want to Hear from You</h3>
@@ -58,18 +58,21 @@ const ContactUs = () => {
             <section className='container'>
                 <div className='from-icon mb-md-5 py-5 d-lg-flex justify-content-between
 '>
-                    <div className='iconBOx p-5 col-12 col-md-12 col-lg-4'>
+                    <div className='iconBOx p-5 col-12 col-md-12 col-lg-4' data-aos="flip-left"
+                        data-aos-duration="1000">
                         <img className='img-fluid' src={messageBox} alt="" />
                         <h5>Email</h5>
                         <p>tanya.hill@example.com <br />
                             michelle.rivera@example.com</p>
                     </div>
-                    <div className='iconBOx p-5 col-12 col-md-12 col-lg-4'>
+                    <div className='iconBOx p-5 col-12 col-md-12 col-lg-4' data-aos="flip-left"
+                        data-aos-duration="1000">
                         <img className='img-fluid' src={locationbox} alt="" />
                         <h5>Email</h5>
                         <p>3891 Ranchview Dr. Richardson, <br /> California 62639</p>
                     </div>
-                    <div className='iconBOx p-5 col-12 col-md-12 col-lg-4'>
+                    <div className='iconBOx p-5 col-12 col-md-12 col-lg-4' data-aos="flip-left"
+                        data-aos-duration="1000">
                         <img className='img-fluid' src={phoneBox} alt="" />
                         <h5>Phone</h5>
                         <p>(684) 555-0102 <br />(239) 555-0108</p>

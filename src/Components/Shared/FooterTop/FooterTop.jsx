@@ -1,6 +1,7 @@
 import React from 'react';
 import "./FooterTop.css"
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const FooterTop = () => {
     return (
@@ -9,7 +10,7 @@ const FooterTop = () => {
                 <div className='footerTop-main'>
                     <div className='footer-header'>
                         <h3 className='mb-5'>Let’s get started your project with professional way</h3>
-                        <Link to="/contact " className='footer-header-button'>Get started Now </Link>
+                        <HashLink to="/contact/#contact" className='footer-header-button'>Get started Now </HashLink>
                     </div>
                 </div>
             </div>

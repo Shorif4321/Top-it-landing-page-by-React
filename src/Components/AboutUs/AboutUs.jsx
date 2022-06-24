@@ -12,8 +12,10 @@ const AboutUs = () => {
     return (
         <>
             {/* ======= about head start========= */}
-            <div className='container d-lg-flex justify-content-between align-items-center my-5 py-md-5'>
-                <div className='col-12 col-md-12 col-lg-6'>
+            <div id='about' className='container d-lg-flex justify-content-between align-items-center  py-md-5' data-aos="fade-up"
+                data-aos-duration="500">
+                <div className='col-12 col-md-12 col-lg-6' data-aos="fade-up"
+                    data-aos-duration="1000">
                     <div className='service-banner'>
                         <h1>About Us</h1>
                         <h6 className=''>We make digital growth simple for small businesses. We consult with you to understand what stage your business is at, what digital problems you are currently facing, and how we can structure the scaling of your business into understandable steps with realistic timelines.
@@ -28,14 +30,17 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            {/* =======about who are you start ========= */}
-            <div className="aboutUs d-lg-flex  justify-content-between align-items-center container my-md-5 py-5">
-                <div className="col-12 col-md-12 col-lg-4 mt-md-4 ">
+
+            {/* ======= about who are you start ========= */}
+            <div className="aboutUs d-lg-flex  justify-content-between align-items-center container my-md-5 py-5" >
+                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     <div>
                         <img className='img-fluid w-100 mb-sm-5' src={about1} alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-12 col-lg-7">
+                <div className="col-12 col-md-12 col-lg-7" data-aos="zoom-out-up"
+                    data-aos-duration="1000">
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className='mb-3 '>Who We Are?</h2>
                     <p>
@@ -49,9 +54,12 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+
+
             {/* =======about service 2 start ========= */}
             <div className="aboutUs d-lg-flex justify-content-between align-items-center container my-md-5 pb-5">
-                <div className="col-12 col-md-12 col-lg-7">
+                <div className="col-12 col-md-12 col-lg-7" data-aos="zoom-out-up"
+                    data-aos-duration="1000">
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className='mb-4'>Keep in touch with the best performance of Information and Technology.</h2>
                     <p className='about-p'>
@@ -61,15 +69,17 @@ const AboutUs = () => {
                         consectetur adipiscing elit. Gravida sit mauris enim, tincidunt varius. Quis diam gravida nunc, at faucibus vel sit sit amet.Lorem ipsum dolor sit amet.
                     </p>
                 </div>
-                <div className="col-12 col-md-12 col-lg-4 mt-md-4 ">
+                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     <div>
                         <img className='img-fluid w-100' src={about1} alt="" />
                     </div>
                 </div>
             </div>
-            {/* =======about missions service 3 start ========= */}
+            {/* ======= about missions service 3 start ========= */}
             <div className="aboutUs d-lg-flex justify-content-between align-items-center container my-5 py-md-5">
-                <div className="col-12 col-md-12 col-lg-7">
+                <div className="col-12 col-md-12 col-lg-7" data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className=' mb-4'>Mission</h2>
                     <p className='about-p'>
@@ -79,7 +89,8 @@ const AboutUs = () => {
                         consectetur adipiscing elit. Gravida sit mauris enim, tincidunt varius. Quis diam gravida nunc, at faucibus vel sit sit amet.Lorem ipsum dolor sit amet.
                     </p>
                 </div>
-                <div className="col-12 col-md-12 col-lg-4 mt-md-4 ">
+                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-up"
+                    data-aos-duration="1000">
                     <div>
                         <img className='img-fluid w-100' src={about2} alt="" />
                     </div>
@@ -88,12 +99,14 @@ const AboutUs = () => {
 
             {/* =======vision service start ========= */}
             <div className="aboutUs d-lg-flex justify-content-between align-items-center container pb-5">
-                <div className="col-12 col-md-12 col-lg-4 mt-md-4 ">
+                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-up"
+                    data-aos-duration="1000">
                     <div>
                         <img className='img-fluid w-100 mb-sm-5' src={about3} alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-12 col-lg-8">
+                <div className="col-12 col-md-12 col-lg-8" data-aos="zoom-out-down"
+                    data-aos-duration="1000">
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className='mb-3 '>Vision</h2>
                     <p className='about-p'>
@@ -105,7 +118,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className='my-md-5 pb-md-5'>
+            <div className=''>
                 <LetsTalk></LetsTalk>
             </div>
 

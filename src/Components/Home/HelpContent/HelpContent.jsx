@@ -4,13 +4,17 @@ import helpImage from "../../../Images/Group8773.png"
 
 const HelpContent = () => {
     return (
-        <div className="container">
+        <div className="container" data-aos="flip-right"
+            data-aos-easing="linear"
+            data-aos-duration="500">
             <div className='d-lg-flex justify-content-between my-5 pt-5 align-items-center'>
-                <div className='col-12 col-md-12 col-lg-5 '>
+                <div className='col-12 col-md-12 col-lg-5' >
                     <img className='help-image img-fluid' src={helpImage} alt="Banner image" />
                 </div>
 
-                <div className='col-12 col-md-12 col-lg-7  help'>
+                <div className='col-12 col-md-12 col-lg-7  help' data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="500">
                     <h1 className='help-head mb-4'>
                         Helping your Organization to Achieve what It Deserves
                     </h1>

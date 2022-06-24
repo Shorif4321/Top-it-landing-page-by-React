@@ -18,9 +18,11 @@ import LetsTalk from '../Shared/LetsTalk/LetsTalk';
 const Portfolio = () => {
     return (
         <>
-            <div className='container d-lg-flex justify-content-between align-items-center my-5'>
-                <div className='col-12 col-md-12 col-lg-5'>
-                    <div className='service-banner'>
+            <div id='portfolio' className='container d-lg-flex justify-content-between align-items-center my-5' data-aos="fade-up"
+                data-aos-duration="500">
+                <div className='col-12 col-md-12 col-lg-5' data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div className='service-banner' >
                         <h1>Best solutions for your business</h1>
                         <h6>A quick view of industry specific problems solved with design by the awesome team at Keystroke.</h6>
                     </div>
@@ -42,7 +44,7 @@ const Portfolio = () => {
                         id="noanim-tab-example"
                         className="tabs-nav"
                     >
-                        <Tab className="mt-4" eventKey="show-all" title="Show All">
+                        <Tab className="mt-4" eventKey="show-all" title="Show All" >
                             <Showall />
                         </Tab>
 
@@ -80,7 +82,8 @@ const Portfolio = () => {
 
                 <div className='container mt-md-5'>
                     <div className=' m-auto d-lg-flex align-items-center'>
-                        <div className='col-md-12 col-lg-8 col-12'>
+                        <div className='col-md-12 col-lg-8 col-12' data-aos="zoom-out-down"
+                            data-aos-duration="1000">
                             <div className='star-review pe-md-5 '>
                                 <p>4.00 <i className=" icon-custom fas fa-star"> </i>
                                     <i className=" icon-custom fas fa-star"></i>
@@ -99,10 +102,10 @@ const Portfolio = () => {
                                         <p>User Interface Design</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-                        <div className='col-md-12 col-lg-4 col-12'>
+                        <div className='col-md-12 col-lg-4 col-12' data-aos="zoom-out-up"
+                            data-aos-duration="1500">
                             <img className='review-left-image' src={reviwImage} alt="" />
 
                         </div>

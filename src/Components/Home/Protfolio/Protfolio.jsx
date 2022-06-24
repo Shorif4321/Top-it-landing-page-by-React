@@ -26,7 +26,9 @@ const Protfolio = () => {
                 <div className='container portfolio'>
                     {
                         portfolios.map(portfolio => <div key={portfolio.id}>
-                            <div className="mb-2 portfolio-hove">
+                            <div className="mb-2 portfolio-hove" data-aos="zoom-in-down"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500">
                                 <div>
                                     <img src={portfolio.image} alt="" />
                                 </div>

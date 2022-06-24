@@ -39,8 +39,9 @@
 
 .service-page-items {
     padding: 20px 0;
-
 }
+
+
 
 .service-page-items:hover {
     /*  box-shadow: 0px 1px 35px grey; */
@@ -177,7 +178,8 @@
     background-color: rgba(240, 69, 69, 0.95);
     border-radius: 30px;
 }
-.talk button:hover{
+
+.talk button:hover {
     color: #091627;
     background-color: #09162700;
     transition: all 0.3s ease-in;
@@ -243,23 +245,24 @@
         margin: 0px 0 0 0;
     }
 
-/* =============  lets talk ============ */
+    /* =============  lets talk ============ */
 
-.talk h1 {
-    font-size: 25px;
-    line-height: 35px;
+    .talk h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .talk button {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 12px 25px;
+    }
+
+
 }
 
-.talk button {
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 12px 25px;
-}
-
-
-}
 /* 
 .identity-image {
     width: 98%;
@@ -299,6 +302,7 @@
         margin: 50px 5px 30px 0px;
 
     }
+
     /* ====== service identity ======== */
     .service-identity {
         text-align: left;
@@ -325,21 +329,21 @@
         margin: 0px 0 0 0;
     }
 
-    
-/* =============  lets talk ============ */
 
-.talk h1 {
-    font-size: 35px;
-    line-height: 35px;
-}
+    /* =============  lets talk ============ */
 
-.talk button {
-    font-size: 17px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 15px 30px;
-}
+    .talk h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .talk button {
+        font-size: 17px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 15px 30px;
+    }
 
 }
 

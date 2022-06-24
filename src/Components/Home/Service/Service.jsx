@@ -24,7 +24,9 @@ const Service = () => {
                 <h1 className='service-main'>We help our clients to recognize and develop their own identity</h1>
             </div>
 
-            <div className='service-items'>
+            <div className='service-items' data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 {
                     services.map(service =>
                         <div key={service.id} className="service-new mb-md-5 mb-sm-3">

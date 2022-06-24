@@ -30,13 +30,15 @@ const BlogFull = () => {
                 </div> */}
             </section>
 
-            {/* =======blog Main start ======== */}
+            {/* ======= blog Main start ======== */}
             <section className='container d-lg-flex'>
                 <div className="col-12 col-md-12 col-lg-7">
                     {/* =======blog Main 1 ======== */}
                     <div className='blog py-4'>
-                        <img className='img-fluid' src={blog1} alt="" />
-                        <div className='blog-author'>
+                        <img className='img-fluid' src={blog1} alt="" data-aos="fade-up"
+                            data-aos-duration="3000" />
+                        <div className='blog-author' data-aos="fade-up"
+                            data-aos-duration="1200">
                             <div className='blog-small'>
                                 <i className="font-awesome fas fa-folder-open"></i>
                                 <h5>Ux Design</h5>
@@ -55,42 +57,51 @@ const BlogFull = () => {
                             </div>
                         </div>
 
-                        <h2>Agency vs Freelancer for Your Digital Products</h2>
+                        <h2 data-aos="fade-up"
+                            data-aos-duration="1000">Agency vs Freelancer for Your Digital Products</h2>
                         <div className='read-box'>
-                            <p className='my-4'>
+                            <p className='my-4' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 consectetur adipiscing elit. Suscipit vitae risus viverra faucibus porttitor. Eget nunc condimentum sit suspendisse ut tellus faucibus malesuada. Volutpat maecenas quam faucibus urna nisi. Mauris velit elit in enim dolor sed. Id neque risus mi egestas. Neque, mauris nulla sit dapibus. Habitasse dictum purus, vulputate curabitur ut etiam morbi. Etiam viverra euismod consequat habitant ultrices dictum lobortis vulputate. Dictum gravida sed ut lacinia lectus lorem.
                             </p>
-                            <p className='mb-4'>
+                            <p className='mb-4' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 consectetur adipiscing elit. Suscipit vitae risus viverra faucibus porttitor. Eget nunc condimentum sit suspendisse ut tellus faucibus malesuada. Volutpat maecenas quam faucibus urna nisi. Mauris velit elit in enim dolor sed. Id neque risus mi egestas. Neque, mauris nulla sit dapibus. Habitasse dictum purus, vulputate curabitur ut etiam morbi. Etiam viverra euismod consequat habitant ultrices dictum lobortis vulputate. Dictum gravida sed ut lacinia lectus lorem.
                             </p>
-                            <p className='mb-4'>
+                            <p className='mb-4' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 consectetur adipiscing elit. Suscipit vitae risus viverra faucibus porttitor. Eget nunc condimentum sit suspendisse ut tellus faucibus malesuada. Volutpat maecenas quam faucibus urna nisi. Mauris velit elit in enim dolor sed. Id neque risus mi egestas. Neque, mauris nulla sit dapibus. Habitasse dictum purus, vulputate curabitur ut etiam morbi. Etiam viverra euismod
                             </p>
-                            <p className='mb-4' >
+                            <p className='mb-4' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 consectetur adipiscing elit. Suscipit vitae risus viverra faucibus porttitor. Eget nunc condimentum sit suspendisse ut tellus faucibus malesuada. Volutpat maecenas quam faucibus urna nisi. Mauris velit elit in enim dolor sed. Id neque risus mi egestas. Neque, mauris nulla sit dapibus. Habitasse dictum purus, vulputate curabitur ut etiam morbi. Etiam viverra euismodconsectetur adipiscing elit. Suscipit vitae risus viverra faucibus porttitor. Eget nunc condimentum sit suspendisse ut tellus faucibus malesuada. Volutpat maecenas quam faucibus urna nisi. Mauris velit elit in enim dolor sed. Id neque risus mi egestas. Neque, mauris nulla sit dapibus. Habitasse dictum purus, vulputate curabitur ut etiam morbi. Etiam viverra euismod
                             </p>
 
-                            <p className='mb-4'>
+                            <p className='mb-4' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 consectetur adipiscing elit. Suscipit vitae risus viverra faucibus porttitor. Eget nunc condimentum sit suspendisse ut tellus faucibus malesuada. Volutpat maecenas quam faucibus urna nisi. Mauris velit elit in enim dolor sed. Id neque risus mi egestas. Neque,
                             </p>
-                            <p className='mb-4'>
+                            <p className='mb-4' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 consectetur adipiscing elit. Suscipit vitae risus viverra faucibus porttitor. Eget nunc condimentum sit suspendisse ut tellus faucibus malesuada. Volutpat maecenas quam faucibus urna nisi. Mauris velit elit in enim dolor sed. Id neque risus mi egestas. Neque, mauris nulla sit dapibus. Habitasse dictum purus, vulputate curabitur ut etiam morbi. Etiam viverra euismodconsectetur adipiscing elit. Suscipit vitae risus viverra faucibus porttitor. Eget nunc condimentum sit suspendisse ut tellus faucibus malesuada. Volutpat maecenas quam faucibus urna nisi. Mauris velit elit in enim dolor sed. Id neque risus mi egestas. Neque, mauris nulla sit dapibus. Habitasse dictum purus, vulputate curabitur ut etiam morbi. Etiam viverra euismod
                             </p>
                             {/* ========= share section start ======= */}
-                            <div className='share'>
+                            <div className='share' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 <p className='pe-4'>Shere</p>
                                 <div className=''>
-                                    <Link className='link-style' to="*"> <img className='img-fluid mx-2' src={f} alt="" /> </Link>
-                                    <Link className='link-style' to="*">   <img className='img-fluid mx-2' src={t} alt="" /> </Link>
-                                    <Link className='link-style' to="*"> <img className='img-fluid mx-2' src={i} alt="" /> </Link>
-                                    <Link className='link-style' to="*"> <img className='img-fluid mx-2' src={youtube} alt="" /> </Link>
+                                    <Link to="/" target="_blank" className='link-style'> <img className='img-fluid mx-2' src={f} alt="" /> </Link>
+                                    <Link to="/" target="_blank" className='link-style'>   <img className='img-fluid mx-2' src={t} alt="" /> </Link>
+                                    <Link to="/" target="_blank" className='link-style'> <img className='img-fluid mx-2' src={i} alt="" /> </Link>
+                                    <Link to="/" target="_blank" className='link-style'> <img className='img-fluid mx-2' src={youtube} alt="" /> </Link>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     {/* ========= under sahre section start ======= */}
-                    <div className='review-section d-lg-flex   pe-5 ps-4 py-4 mb-5'>
+                    <div className='review-section d-lg-flex   pe-5 ps-4 py-4 mb-5' data-aos="fade-up"
+                        data-aos-duration="1200">
                         <div className='col-12 col-md-12 col-lg-2'>
                             <img className='w-100' src={john} alt="" />
                         </div>
@@ -105,7 +116,8 @@ const BlogFull = () => {
                     <div className='comment'>
                         <h5 className='text-start my-4'>Comments</h5>
                         <div className='review-section mb-5'>
-                            <div className=' d-lg-flex pe-5 ps-4 py-4 '>
+                            <div className=' d-lg-flex pe-5 ps-4 py-4 ' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 <div className='col-12 col-md-12 col-lg-2'>
                                     <img className='img-fluid w-100' src={comment} alt="" />
                                 </div>
@@ -118,7 +130,8 @@ const BlogFull = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=' d-lg-flex   pe-5 ps-4 py-4  '>
+                            <div className=' d-lg-flex   pe-5 ps-4 py-4  ' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 <div className='col-12 col-md-12 col-lg-2'>
                                     <img className='img-fluid w-100 ' src={comment2} alt="" />
                                 </div>
@@ -131,7 +144,8 @@ const BlogFull = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=' d-lg-flex   pe-5 ps-4 py-4 '>
+                            <div className=' d-lg-flex   pe-5 ps-4 py-4 ' data-aos="fade-up"
+                                data-aos-duration="1200">
                                 <div className='col-12 col-md-12 col-lg-2'>
                                     <img className='img-fluid w-100 ' src={comment3} alt="" />
                                 </div>
@@ -149,7 +163,8 @@ const BlogFull = () => {
 
 
                     {/* ====== comment section ======= */}
-                    <div className='comment'>
+                    <div className='comment' data-aos="fade-up"
+                        data-aos-duration="1200">
                         <h5 className='text-start my-4'>Add a comment</h5>
                         <div className=' mb-5'>
                             <div className="contact-custom row g-4">
@@ -168,16 +183,11 @@ const BlogFull = () => {
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
 
                 {/* =======left star ======== */}
                 <div className="col-12 col-md-12 col-lg-5 py-4 ms-lg-4">
                     <Aside></Aside>
-
-
                 </div>
             </section>
 

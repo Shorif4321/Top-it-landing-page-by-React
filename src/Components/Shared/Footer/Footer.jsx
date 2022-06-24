@@ -23,11 +23,11 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3  col-12">
                         <h4 className='footer-head'>Quick Links</h4>
-                        <Link className='text-decoration-none footer-link' to="/home">Home</Link>
-                        <Link className='text-decoration-none footer-link' to="/service">Service</Link>
-                        <Link className='text-decoration-none footer-link' to="/portfolio">Portfolio</Link>
-                        <Link className='text-decoration-none footer-link' to="/about-us">About us</Link>
-                        <Link className='text-decoration-none footer-link' to="/blog">Blog</Link>
+                        <HashLink className='text-decoration-none footer-link' to="/home/#home">Home</HashLink>
+                        <HashLink className='text-decoration-none footer-link' to="/service/#service">Service</HashLink>
+                        <HashLink className='text-decoration-none footer-link' to="/portfolio/#portfolio">Portfolio</HashLink>
+                        <HashLink className='text-decoration-none footer-link' to="/about-us#about">About us</HashLink>
+                        <HashLink className='text-decoration-none footer-link' to="/blog/#blog">Blog</HashLink>
                     </div>
                     <div className="col-md-3  col-12">
                         <h4 className='footer-head'>Services</h4>
