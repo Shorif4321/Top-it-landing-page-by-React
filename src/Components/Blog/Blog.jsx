@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Blog.css"
 import right from "../../Images/rightServiceArrow.png"
-import blog1 from "../../Images/blog1.png"
+import blog1 from "../../Images/ecommerce.jpg"
 import blog2 from "../../Images/blog2.png"
 import blog3 from "../../Images/blog3.png"
 import blog4 from "../../Images/blog4.png"
@@ -22,7 +22,7 @@ const Blog = () => {
                 <div className='contact-hero container col-11 col-md-8 col-lg-5 m-auto my-md-5'>
                     <h2>Our Blog News</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim convallis varius ut in.
+                        we are trying to help people by our blog.
                     </p>
 
                 </div>
@@ -38,7 +38,7 @@ const Blog = () => {
                     <div className='blog py-4' >
                         <div className='' data-aos="fade-up"
                             data-aos-duration="3000" >
-                            <img className='img-fluid' src={blog1} alt="" />
+                            <img className='img-fluid rounded' src={blog1} alt="" />
                         </div>
                         <div className='blog-author' data-aos="fade-up"
                             data-aos-duration="1200">
@@ -61,14 +61,14 @@ const Blog = () => {
                         </div>
 
                         <h2 data-aos="fade-up"
-                            data-aos-duration="1500">Agency vs Freelancer for Your Digital Products</h2>
+                            data-aos-duration="1500">eCommerce in Bangladesh</h2>
                         <div className='read-box'>
                             <p data-aos="fade-up"
-                                data-aos-duration="1700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
+                                data-aos-duration="1700">Describes how widely e-Commerce is used, sectors that sell through e-commerce, and products/services in each sector sold versus brick-and-mortar retail. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
                     </div>
                     {/* =======blog Main 1 ======== */}
-                    <div className='blog py-4'>
+                    {/*  <div className='blog py-4'>
                         <div data-aos="fade-up"
                             data-aos-duration="3000">
                             <img className='img-fluid' src={blog1} alt="" />
@@ -99,9 +99,9 @@ const Blog = () => {
                             data-aos-duration="1700">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
-                    </div>
+                    </div> */}
                     {/* =======blog Main 1 ======== */}
-                    <div className='blog py-4'>
+                    {/* <div className='blog py-4'>
                         <img className='img-fluid' src={blog1} alt="" data-aos="fade-up"
                             data-aos-duration="3000" />
                         <div className='blog-author' data-aos="fade-up"
@@ -130,9 +130,9 @@ const Blog = () => {
                             <p data-aos="fade-up"
                                 data-aos-duration="1700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
-                    </div>
+                    </div> */}
                     {/* =======blog Main 1 ======== */}
-                    <div className='blog py-4'>
+                    {/* <div className='blog py-4'>
                         <img className='img-fluid' src={blog1} alt="" data-aos="fade-up"
                             data-aos-duration="3000" />
                         <div className='blog-author' data-aos="fade-up"
@@ -161,9 +161,9 @@ const Blog = () => {
                             <p data-aos="fade-up"
                                 data-aos-duration="1700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
-                    </div>
+                    </div> */}
                     {/* =======blog Main 1 ======== */}
-                    <div className='blog py-4 '>
+                    {/*  <div className='blog py-4 '>
                         <div >
                             <img className='img-fluid' src={blog1} alt="" data-aos="fade-up"
                                 data-aos-duration="3000" />
@@ -194,7 +194,7 @@ const Blog = () => {
                             <p data-aos="fade-up"
                                 data-aos-duration="1700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis est sed suspendisse adipiscing porttitor ornare faucibus ultrices tempor. Feugiat posuere lorem sed quam. Fermentum, nunc pellentesque imperdiet pharetra. <Link className='read-more' to="/blog-full"> Read More ...</Link></p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* =======left star ======== */}

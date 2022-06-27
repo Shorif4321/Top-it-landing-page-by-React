@@ -62,20 +62,23 @@ const ContactUs = () => {
                         data-aos-duration="1000">
                         <img className='img-fluid' src={messageBox} alt="" />
                         <h5>Email</h5>
-                        <p>tanya.hill@example.com <br />
-                            michelle.rivera@example.com</p>
+                        <p>
+                            contact@topitltd.com
+                            <br />
+                            support@topitltd.com </p>
                     </div>
                     <div className='iconBOx p-5 col-12 col-md-12 col-lg-4' data-aos="flip-left"
                         data-aos-duration="1000">
                         <img className='img-fluid' src={locationbox} alt="" />
-                        <h5>Email</h5>
-                        <p>3891 Ranchview Dr. Richardson, <br /> California 62639</p>
+                        <h5>Location</h5>
+                        <p>1207, 1/4, Block-E, Sat-Mosjid Road, Bus Stand, Opposite Allah Kareem Mosque
+                            <br /> Dhaka 1207</p>
                     </div>
                     <div className='iconBOx p-5 col-12 col-md-12 col-lg-4' data-aos="flip-left"
                         data-aos-duration="1000">
                         <img className='img-fluid' src={phoneBox} alt="" />
                         <h5>Phone</h5>
-                        <p>(684) 555-0102 <br />(239) 555-0108</p>
+                        <p> Phone: +880 1616-028947 <br />Whatsapp: +880 1681-477270</p>
                     </div>
                 </div>
             </section>

@@ -43,7 +43,7 @@ const Footer = () => {
                         <p>1/4, Block-E, Sat-Mosjit Road, Mohammadpur Bus Stand, Dhaka-1207. 1207 Dhaka, Dhaka Division, Bangladesh</p>
                         <p>info@topitltd.com</p>
                         <p>Phone: +880 1616-028947 <br />
-                            Phone: +880 1681-477270
+                            Whatsapp: +880 1681-477270
                         </p>
                     </div>
                 </div>

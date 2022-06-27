@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className='container my-4 py-4'>
-            <Navbar fixed="top" expand="lg py-3 nav-fixed-top">
+            <Navbar fixed="top" expand="lg py-4 nav-fixed-top">
                 <Container className='d-flex '>
 
 

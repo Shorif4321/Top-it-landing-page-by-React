@@ -1,5 +1,6 @@
 .nav-fixed-top {
-    background: aliceblue;
+    background: #FFFFFF;
+    box-shadow: 4px 10px 24px rgba(16, 19, 48, 0.08);
 }
 
 .nav-items {
