@@ -1,15 +1,16 @@
 .nav-basic {
     position: fixed;
+    height: 90px;
     width: 100%;
+    background-color: #FFFFFF;
     top: 0;
     left: 0;
     z-index: 1;
-    transition: .3s ease-in;
 }
 
 .on-scroll {
     background-color: white;
-    box-shadow: 4px 10px 24px rgba(16, 19, 48, 0.08);
+    box-shadow: 5px 0px 30px rgb(16 19 48 / 8%);
 }
 
 .nav-items {
@@ -76,10 +77,15 @@
 }
 
 @media only screen and (max-width: 667px) {
+
+    .navbar-collapse {
+        background-color: white !important;
+    }
+
     .nav-items {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding: 0px 25px;
+        padding: 0px 25px 15px 25px;
 
     }
 
@@ -99,6 +105,17 @@
     }
 }
 
-@media only screen and (max-width:991px) and (min-width:668px) {}
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .navbar-collapse {
+        background-color: white !important;
+    }
+
+    .nav-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px 25px 15px 25px;
+
+    }
+}
 
 @media only screen and (max-width: 1200px) and (min-width:992px) {}

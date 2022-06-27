@@ -21,9 +21,9 @@ const Header = () => {
 
     return (
         <div className='container m-auto my-4 py-4' >
-            <Navbar className={color ? 'nav-basic on-scroll' : 'nav-basic'} expand="lg py-4 ">{/*  */}
-                <Container className='d-flex '>
-                    <Navbar.Brand ><Link to="/home"> <img src={logo} alt="" /> </Link></Navbar.Brand>
+            <Navbar className={color ? 'nav-basic on-scroll' : 'nav-basic'} expand="lg py-4 " >{/*  */}
+                <Container className='d-flex'>
+                    <Navbar.Brand ><Link to="/home"> <img className='img-fluid' src={logo} alt="" /> </Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
