@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';/* 
+import { Link } from 'react-router-dom'; */
 import "./Services.css"
 import seviceImage from "../../Images/servicesHead.png"
 import serviceName1 from "../../Images/serviceName1.png"
@@ -8,8 +8,8 @@ import serviceName3 from "../../Images/serviceName3.png"
 import serviceName4 from "../../Images/serviceName4.png"
 import serviceName5 from "../../Images/serviceName5.png"
 import serviceName6 from "../../Images/serviceName6.png"
-
-import right from "../../Images/rightServiceArrow.png"
+/* 
+import right from "../../Images/rightServiceArrow.png" */
 import serviceIdentity from "../../Images/serviceIdentity.png"
 import sign from "../../Images/sign.png"
 import image2 from "../../Images/02.png"
@@ -37,8 +37,8 @@ const Services = () => {
                 <div className='col-12 col-md-12 col-lg-5'>
                     <div className='service-banner' data-aos="fade-up"
                         data-aos-duration="1000">
-                        <h1>We help our clients to recognize and develop their own identity</h1>
-                        <h6>The recipe to do that is by focusing and deeply understanding the single elements of a new project to gradually make them part of an inspiring seamless whole, add creativity to taste!</h6>
+                        <h4 className='discover-text'>Discover own Identity with New Experience</h4>
+                        <h6>Vast advantage of technology has opened a new window of new oppertunirties. Attach your dreams with magical touch of Infomation and Technoplogy and reach at the last corner of the world with the best outcome of your own business and services. We are being committed standing by 24/7 only for you, only for your brand & business.</h6>
                     </div>
                     {/*   <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Service</p> */}
                 </div>
@@ -134,14 +134,16 @@ const Services = () => {
                     data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>Branding & Identity</h2>
-                    <p>Brand Identity is who you are as a business or organization, and that statement needs to be strong and clear, resonating throughout all aspects of your business decisions. Whether you’re launching a new brand, or in need of a fresh update, we create a defined awareness between you and your consumer, for a lasting impression. Aumcore has launched brands from birth including Logo Design, Voice Development, Copywriting, and more. As a 360˚ marketing agency, our specialty is providing you with the full spectrum of services you’ll require to create or refresh an impressive brand Identity package.
+                    <p>“Your Brand,Your Dream” is the main motto of your business. Creating brand awareness among the people of the local market and international markert is is definitely challenging But the challenge can not stop branding. The more challenge you face in branding, the more awareness will seen among the clients and customers you have already targeted.
+                    </p>
+                    <p className='mt-3'>Don’t be much worried because the topitltd has a group of marketing experts who are dedicated to creating the outcome of making your branding and identity. Grow up your brands and identity with the extreme efforts of the topitltd.
                     </p>
 
                     <div className='my-3'>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Naming</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Logo Design</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand identity system</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Marketing graphics</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Increase Brand Awareness</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand Positioning </h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Style Guide</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Social Media Branding</h6>
                     </div>
                 </div>
 
@@ -164,15 +166,22 @@ const Services = () => {
                     data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>SAAS Development</h2>
-                    <p>We have experts who are proficient in the technologies needed to build a SaaS solution for your business, and we have a good understanding of what real-world challenges SaaS product development services can solve for you and your customers. What we provide is well-organized and configurable software. Your end users can access this software from anywhere with only a few clicks. And you can start saving on hardware, servers, and in-house IT specialists without compromising on user experience and functionality.
+                    <p>Software as a service (or SaaS) is a way of delivering applications over the Internet—as a service. Instead of installing and maintaining software, you simply access it via the Internet, freeing yourself from complex software and hardware management.
+                    </p>
+                    <p className='mt-3'>SaaS applications are sometimes called Web-based software, on-demand software, or hosted software. Whatever the name, SaaS applications run on a SaaS provider’s servers. The provider manages access to the application, including security, availability, and performance.
                     </p>
 
 
                     <div className='my-3'>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Naming</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Logo Design</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand identity system</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Marketing graphics</h6>
+
+
+
+
+
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Technology Stack Choice</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Database design</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Third-Party Services Integration</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Security audit</h6>
                     </div>
                 </div>
             </div>
@@ -184,16 +193,22 @@ const Services = () => {
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>Graphic Design</h2>
                     <p>
-                        Graphics Design is one of the strongest media for exposing your thoughts and imaginations. You can decorate the whole world with millions of unique images that you love to imagine. The TOP IT LTD is offering you the best courses in Graphics Design with world-class skills. Learn it with your passion and make you successful with artistic designs.
-
-
+                        Graphics Designs is one of the strongest media of exposing thousands of words in a picture. It helps to make your brand how much colorful and visible to the people. We have teams of designers that are really amazing and productive. Innovative, unique and eye-catching designs with high resolution always amplifiers the values of your brands.
+                    </p>
+                    <p className='mt-3'>
+                        When you are thinking of establishing your own business with the colorful design, you can choose the color you like  most. The graphic teams of the company are so dedicate and bring out the best designs with best color combination.
                     </p>
 
                     <div className='my-3'>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Naming</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Logo Design</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand identity system</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Marketing graphics</h6>
+
+
+
+
+
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Unique Design</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Best Color Combination</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> More Re-Touch</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Attractive Design Layout</h6>
                     </div>
                 </div>
 
@@ -216,16 +231,15 @@ const Services = () => {
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>Web Design & Development</h2>
                     <p>
-                        Do you have a passion for designing websites as you want? Growing up with the advantages of the internet and information technology, Web Design has been considered the part and parcel of online marketing and branding all over the world. To be skilled, you need world-class training to make true your dreams of creating unique designs with the TOP IT LTD. Learn, customize and design every website as you like to see.
-
-
+                        A professional, eye-catching, responsive and user-friendly website must bring your brand to life. Your website is just like a showcase where you will put everything about your brand or business so that all the potential customers and clients can interact as they like. Start a good business journey with your customers and clients with just a click. Are you ready?
                     </p>
 
                     <div className='my-3'>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Naming</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Logo Design</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand identity system</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Marketing graphics</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Responsive
+                        </h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Speed Optimized</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand Consistent</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Cross-Browser Compatible</h6>
                     </div>
                 </div>
             </div>
@@ -237,16 +251,20 @@ const Services = () => {
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>Affiliate Marketing</h2>
                     <p>
-                        The traditional marketing strategies are now being replaced by Digital Marketing because of the fast-growing internet, information technology and social media of the world. Online Marketing and Branding of products and services to the target audiences greatly depend on Digital Marketing. The TOP IT LTD is offering you the best training courses on it. Make you a digital marketing expert, bring massive success in your marketing strategy for branding.
-
-
+                        Affiliate Marketing is such a type of marketing where a marketer or publisher can generate a lot of revenue and commission on a specific service or product without any investment. This marketing strategy is getting popular in Bangladesh and other countries of the world. Amazon, Alibaba, and Daraz are the most popular and biggest affiliate sites and you can generate a lot of revenue and commission working at home. But how?
                     </p>
 
                     <div className='my-3'>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Naming</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Logo Design</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand identity system</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Marketing graphics</h6>
+
+
+
+
+
+
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Quality Affiliates</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Products That Provide Value to Customers</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Attention to Key Performance Indicators </h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> A Thriving Affiliate Community</h6>
                     </div>
                 </div>
 
@@ -268,16 +286,17 @@ const Services = () => {
                     <h5> Services <span className='service-span'></span></h5>
                     <h2>SEO & Digital Marketing</h2>
                     <p>
-                        Digital Marketing is such a marketing strategy in which business is run through using various digital platforms not using the traditional marketing tools and media. As all types of digital tools and media are used, the sales and profits of services and products are more than that of traditional marketing. Search Engine Optimization (SEO) is the most important practical strategy for the purpose of ranking websites in any Search Engine like Google, Bing, DuckDuckGo and so on.
-
-
+                        Digital Marketing is such a marketing strategy in which business is run through using various digital platforms not using the traditional marketing tools and media. As all types of digital tools and media are used, the sales and profits of service and products are more than that of traditional marketing
+                    </p>
+                    <p className='mt-3'>
+                        When you are thinking of making your own branding and spreading out both nationally and internationally, you must do it now by Digital Marketing because the traditional marketing is definitely bounded only in the some specific local areas. Grow up business in the next level by the touch of digital platforms and make more profits as you expect. Don’t be late, start now.
                     </p>
 
                     <div className='my-3'>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Naming</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Logo Design</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand identity system</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Marketing graphics</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Online advertising</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Search Engine Optimization</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Online Content and Blogging</h6>
+                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Email and Online Newsletter Marketing</h6>
                     </div>
                 </div>
             </div>
@@ -291,13 +310,6 @@ const Services = () => {
                     <HashLink to="/contact/#contact" className="portfolio-last-button">Let’s Talk</HashLink>
                 </div>
             </div>
-
-
-
-
-
-
-
 
         </>
     );

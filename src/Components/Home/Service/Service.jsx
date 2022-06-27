@@ -21,12 +21,13 @@ const Service = () => {
         <div className='container mt-5'>
             <div className='service my-md-5 py-md-4'>
                 <h6 className='service-head'>THIS IS A PLACE WHERE IDEAS GROW</h6>
-                <h1 className='service-main'>We help our clients to recognize and develop their own identity</h1>
+                <h1 className='service-main'>We help our Clients to recognize and develop their own Identity</h1>
             </div>
 
-            <div className='service-items' data-aos="zoom-in"
+            <div className='service-items' >
+                {/*  data-aos="zoom-in"
                 data-aos-easing="linear"
-                data-aos-duration="1500">
+                data-aos-duration="1500" */}
                 {
                     services.map(service =>
                         <div key={service.id} className="service-new mb-md-5 mb-sm-3">

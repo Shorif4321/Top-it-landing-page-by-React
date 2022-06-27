@@ -8,7 +8,7 @@ const Counter = () => {
             <div className='count-text col-6 col-md-3'>
                 <CountUp
                     start={0}
-                    end={120}
+                    end={360}
                     duration={5}
                     decimals={0}
                     onEnd={() => console.log('Ended! 👏')}
@@ -26,15 +26,15 @@ const Counter = () => {
             <div className='count-text col-6 col-md-3'>
                 <CountUp
                     start0={0}
-                    end={1.2}
-                    duration={1}
-                    decimals={1}
+                    end={330}
+                    duration={5}
+                    decimals={0}
                     onEnd={() => console.log('Ended! 👏')}
                     onStart={() => console.log('Started! 💨')}
                 >
                     {({ countUpRef, start0 }) => (
                         <div>
-                            <h1> <span className='count' ref={countUpRef} />K</h1>
+                            <h1> <span className='count' ref={countUpRef} />+</h1>
                             <p>Happy Clients</p>
                         </div>
                     )}
@@ -62,7 +62,7 @@ const Counter = () => {
             <div className='count-text col-6 col-md-3'>
                 <CountUp
                     start2={0}
-                    end={100}
+                    end={30}
                     duration={5}
                     decimals={0}
                     onEnd={() => console.log('Ended! 👏')}
@@ -71,7 +71,7 @@ const Counter = () => {
                     {({ countUpRef, start2 }) => (
                         <div>
                             <h1> <span className='count' ref={countUpRef} />+</h1>
-                            <p>Worldwide Office</p>
+                            <p>Team Members</p>
                         </div>
                     )}
                 </CountUp>

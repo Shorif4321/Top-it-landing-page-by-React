@@ -23,7 +23,7 @@ const Portfolio = () => {
                 <div className='col-12 col-md-12 col-lg-5' data-aos="fade-up"
                     data-aos-duration="1000">
                     <div className='service-banner' >
-                        <h1>Best solutions for your business</h1>
+                        <h4>Best solutions for your business</h4>
                         <h6>A quick view of industry specific problems solved with design by the awesome team at Keystroke.</h6>
                     </div>
                     {/*   <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Portfolio</p> */}
