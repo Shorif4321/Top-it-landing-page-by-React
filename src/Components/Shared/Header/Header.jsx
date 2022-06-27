@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className='container my-4 py-4'>
-            <Navbar expand="lg">
-                <Container className='d-flex position-fixed '>
+            <Navbar fixed="top" expand="lg py-3 nav-fixed-top">
+                <Container className='d-flex '>
 
 
                     <Navbar.Brand ><Link to="/home"> <img src={logo} alt="" /> </Link></Navbar.Brand>

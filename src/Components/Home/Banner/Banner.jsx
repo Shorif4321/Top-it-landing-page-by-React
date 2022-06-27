@@ -11,7 +11,7 @@ const Banner = () => {
                 data-aos-duration="1500">
                 <div className='text-center pb-5 '>
                     <div className='col-12 col-md-8 m-auto'>
-                        <h1 className='hero-head'>Grow up you Business and Branding as you <span> Dream</span>
+                        <h1 className='hero-head'>Grow up your Business and Branding as your <span> Dream</span>
                         </h1>
                         <p className='hero-description'>Growing up of business and branding is always challenging but not impossible.The more you use technology in business, the more people will be engaged and boostup business profit. </p>
 

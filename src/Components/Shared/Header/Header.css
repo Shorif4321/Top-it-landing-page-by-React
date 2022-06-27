@@ -1,3 +1,7 @@
+.nav-fixed-top {
+    background: aliceblue;
+}
+
 .nav-items {
     display: flex !important;
     justify-content: space-between;
