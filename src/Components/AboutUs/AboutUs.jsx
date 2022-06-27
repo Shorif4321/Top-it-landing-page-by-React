@@ -29,7 +29,7 @@ const AboutUs = () => {
                 </div>
                 <div className='col-12 col-md-12 col-lg-4'>
                     <div className='service-banner-img'>
-                        <img className='img-fluid' src={aboutMain} alt="" />
+                        <img className='img-fluid rounded' src={aboutMain} alt="" />
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ const AboutUs = () => {
                 <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-down"
                     data-aos-duration="1000">
                     <div>
-                        <img className='img-fluid w-100 mb-sm-5' src={about1} alt="" />
+                        <img className='img-fluid w-100 mb-sm-5 rounded' src={about1} alt="" />
                     </div>
                 </div>
                 <div className="col-12 col-md-12 col-lg-7" data-aos="zoom-out-up"
@@ -76,7 +76,7 @@ const AboutUs = () => {
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className='mb-4'>Be Skilled, Be Confident.</h2>
                     <p className='about-p'>
-                        The Topitltd hais such a type of information and technology platform that can make your dreams come true. You must be able to make yourself skilled and innovative. Your skills and innovative ideas will help to invent millions of creatives. Thus, you will be able to work in Bangladesh and all over the world. As the information and technology sectors of Bangladesh are growing faster, thousands of skilled human resources are needed here to boost the overall development. In this case, if you have any skills in digital platforms, thousands of doors of work open for you. So, don’t be late taking the right decision right now. Go ahead with the best Skills Development and Services of the Topitltd
+                        The Topitltd has such a type of information and technology platform that can make your dreams come true. You must be able to make yourself skilled and innovative. Your skills and innovative ideas will help to invent millions of creatives. Thus, you will be able to work in Bangladesh and all over the world. As the information and technology sectors of Bangladesh are growing faster, thousands of skilled human resources are needed here to boost the overall development. In this case, if you have any skills in digital platforms, thousands of doors of work open for you. So, don’t be late taking the right decision right now. Go ahead with the best Skills Development and Services of the Topitltd
                     </p>
                     <p className='about-p mt-3'>
 
@@ -85,7 +85,7 @@ const AboutUs = () => {
                 <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-down"
                     data-aos-duration="1000">
                     <div>
-                        <img className='img-fluid w-100' src={about20} alt="" />
+                        <img className='img-fluid w-100 rounded' src={about20} alt="" />
                     </div>
                 </div>
             </div>
