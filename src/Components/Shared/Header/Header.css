@@ -1,5 +1,14 @@
-.nav-fixed-top {
-    background: #FFFFFF;
+.nav-basic {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+}
+
+.on-scroll {
+    background-color: white;
     box-shadow: 4px 10px 24px rgba(16, 19, 48, 0.08);
 }
 

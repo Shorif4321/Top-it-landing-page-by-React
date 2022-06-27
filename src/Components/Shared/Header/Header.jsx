@@ -3,14 +3,26 @@ import "./Header.css"
 import logo from "../../../Images/Untitled-1-1-1.png"
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const Header = () => {
+
+    //change color on scroll
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if (window.scrollY >= 90) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+
+    }
+    window.addEventListener('scroll', changeColor)
+
     return (
-        <div className='container my-4 py-4'>
-            <Navbar fixed="top" expand="lg py-4 nav-fixed-top">
+        <div className='container m-auto my-4 py-4' >
+            <Navbar className={color ? 'nav-basic on-scroll' : 'nav-basic'} expand="lg py-4 ">{/*  */}
                 <Container className='d-flex '>
-
-
                     <Navbar.Brand ><Link to="/home"> <img src={logo} alt="" /> </Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
