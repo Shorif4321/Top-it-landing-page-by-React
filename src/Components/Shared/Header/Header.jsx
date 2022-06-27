@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='container my-4'>
+        <div className='container my-4 py-4'>
             <Navbar expand="lg">
-                <Container className='d-flex'>
+                <Container className='d-flex position-fixed '>
 
 
                     <Navbar.Brand ><Link to="/home"> <img src={logo} alt="" /> </Link></Navbar.Brand>

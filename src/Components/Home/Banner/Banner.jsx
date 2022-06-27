@@ -9,7 +9,7 @@ const Banner = () => {
             <div id='home' className='banner-home container' data-aos="zoom-in"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1500">
-                <div className='text-center pb-5'>
+                <div className='text-center pb-5 '>
                     <div className='col-12 col-md-8 m-auto'>
                         <h1 className='hero-head'>Grow up you Business and Branding as you <span> Dream</span>
                         </h1>

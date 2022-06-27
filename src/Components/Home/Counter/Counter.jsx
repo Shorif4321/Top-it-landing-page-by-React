@@ -6,7 +6,7 @@ const Counter = () => {
     return (
         <div className='container counter'>
             <div className='count-text col-6 col-md-3'>
-                <CountUp
+                {/* <CountUp
                     start={0}
                     end={360}
                     duration={5}
@@ -15,16 +15,17 @@ const Counter = () => {
                     onStart={() => console.log('Started! 💨')}
                 >
                     {({ countUpRef, start }) => (
-                        <div>
-                            <h1> <span className='count' ref={countUpRef} />+</h1>
-                            <p>Completed Projects</p>
-                        </div>
+                       
                     )}
-                </CountUp>
+                </CountUp> */}
+                <div>
+                    <h1> <span className='count' /* ref={countUpRef} */ />360 +</h1>
+                    <p>Completed Projects</p>
+                </div>
             </div>
 
             <div className='count-text col-6 col-md-3'>
-                <CountUp
+                {/*     <CountUp
                     start0={0}
                     end={330}
                     duration={5}
@@ -33,16 +34,17 @@ const Counter = () => {
                     onStart={() => console.log('Started! 💨')}
                 >
                     {({ countUpRef, start0 }) => (
-                        <div>
-                            <h1> <span className='count' ref={countUpRef} />+</h1>
-                            <p>Happy Clients</p>
-                        </div>
+                        
                     )}
-                </CountUp>
+                </CountUp> */}
+                <div>
+                    <h1> <span className='count' /* ref={countUpRef} */ />330 +</h1>
+                    <p>Happy Clients</p>
+                </div>
             </div>
 
             <div className='count-text col-6 col-md-3'>
-                <CountUp
+                {/*     <CountUp
                     start1={0}
                     end={90}
                     duration={5}
@@ -51,16 +53,16 @@ const Counter = () => {
                     onStart={() => console.log('Started! 💨')}
                 >
                     {({ countUpRef, start1 }) => (
-                        <div>
-                            <h1> <span className='count' ref={countUpRef} />%</h1>
-                            <p>Reports Faster</p>
-                        </div>
+                       
                     )}
-                </CountUp>
+                </CountUp> */} <div>
+                    <h1> <span className='count' /* ref={countUpRef} */ /> 90%</h1>
+                    <p>Reports Faster</p>
+                </div>
             </div>
 
             <div className='count-text col-6 col-md-3'>
-                <CountUp
+                {/*    <CountUp
                     start2={0}
                     end={30}
                     duration={5}
@@ -69,12 +71,13 @@ const Counter = () => {
                     onStart={() => console.log('Started! 💨')}
                 >
                     {({ countUpRef, start2 }) => (
-                        <div>
-                            <h1> <span className='count' ref={countUpRef} />+</h1>
-                            <p>Team Members</p>
-                        </div>
+                        
                     )}
-                </CountUp>
+                </CountUp> */}
+                <div>
+                    <h1> <span className='count' /* ref={countUpRef} */ />18+</h1>
+                    <p>Team Members</p>
+                </div>
             </div>
 
         </div>
