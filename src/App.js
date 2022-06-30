@@ -11,6 +11,8 @@ import ProjectPage from './Components/ProjectPage/ProjectPage';
 import Services from './Components/Services/Services';
 import Footer from './Components/Shared/Footer/Footer';
 import Header from './Components/Shared/Header/Header';
+import PrivacyPolicy from './Components/Shared/PrivacyPolicy/PrivacyPolicy';
+import TramsCondition from './Components/Shared/TramsCondition/TramsCondition';
 function App() {
 
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/project" element={<ProjectPage></ProjectPage>} />
           <Route path="/blog" element={<Blog></Blog>} />
           <Route path="/blog-full" element={<BlogFull></BlogFull>} />
+          <Route path="/tram&Condition" element={<TramsCondition></TramsCondition>} />
+          <Route path="/privacy" element={<PrivacyPolicy></PrivacyPolicy>} />
           <Route path="*" element={<Error></Error>} />
         </Routes>
         <Footer></Footer>

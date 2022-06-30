@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./ContactUs.css"
 import right from "../../Images/rightServiceArrow.png"
 import messageBox from "../../Images/massagebox.png"
@@ -7,6 +7,11 @@ import phoneBox from "../../Images/phoneBox.png"
 import Map from '../Shared/Map/Map';
 
 const ContactUs = () => {
+    /* ========= Page Load from top of the page code start ========= */
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    /* ========= Page Load from top of the page code end ========= */
     return (
         <>
             {/*    <div className='contact-hero container col-11 col-md-8 col-lg-5 m-auto my-md-5'>

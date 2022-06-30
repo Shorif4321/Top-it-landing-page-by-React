@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./AboutUs.css"
 import aboutMain from '../../Images/Boss1.jpg'
 import right from '../../Images/rightServiceArrow.png'
@@ -10,6 +10,12 @@ import about3 from "../../Images/about3.png"
 import LetsTalk from '../Shared/LetsTalk/LetsTalk';
 
 const AboutUs = () => {
+    /* ========= Page Load from top of the page code start ========= */
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    /* ========= Page Load from top of the page code end ========= */
+
     return (
         <>
             {/* ======= about head start========= */}
@@ -96,10 +102,10 @@ const AboutUs = () => {
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className=' mb-4'>Mission</h2>
                     <p className='about-p'>
-                        The mission of the Topitltd is to ensure the best services of the Information and Technology to the all classes people of Bangladesh and other countries of the world. It is klnown to all that the advantages of technology has created a new window of business that are bringing remarkable contribution to the national economy of the countr. As a result, the country has been benefited in various ways.
+                        The mission of the Topitltd is to ensure the best services of the Information and Technology to the all classes people of Bangladesh and other countries of the world. It is known to all that the advantages of technology has created a new window of business that are bringing remarkable contribution to the national economy of the country. As a result, the country has been benefited in various ways.
                     </p>
                     <p className='about-p mt-3'>
-                        As the people of the worldwide are getting involved in the metaverse of the technology both in their personal life and business, they need the best services and support so that they can get the best benefit of the technology for the betterment of their business.
+                        As the people of the worldwide are getting involved in the meta-verse of the technology both in their personal life and business, they need the best services and support so that they can get the best benefit of the technology for the betterment of their business.
                     </p>
                 </div>
                 <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-up"

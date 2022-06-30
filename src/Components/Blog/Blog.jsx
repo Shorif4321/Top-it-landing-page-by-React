@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./Blog.css"
 import right from "../../Images/rightServiceArrow.png"
 import blog1 from "../../Images/ecommerce.jpg"
@@ -16,6 +16,11 @@ import { Link } from 'react-router-dom';
 import Aside from '../Shared/Aside/Aside';
 
 const Blog = () => {
+    /* ========= Page Load from top of the page code start ========= */
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    /* ========= Page Load from top of the page code end ========= */
     return (
         <>
             <section id='blog' className='container'>

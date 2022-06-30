@@ -23,11 +23,11 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3  col-12">
                         <h4 className='footer-head'>Quick Links</h4>
-                        <HashLink className='text-decoration-none footer-link' to="/home/#home">Home</HashLink>
-                        <HashLink className='text-decoration-none footer-link' to="/service/#service">Service</HashLink>
-                        <HashLink className='text-decoration-none footer-link' to="/portfolio/#portfolio">Portfolio</HashLink>
-                        <HashLink className='text-decoration-none footer-link' to="/about-us#about">About us</HashLink>
-                        <HashLink className='text-decoration-none footer-link' to="/blog/#blog">Blog</HashLink>
+                        <Link className='text-decoration-none footer-link' to="/home">Home</Link>
+                        <Link className='text-decoration-none footer-link' to="/service">Service</Link>
+                        <Link className='text-decoration-none footer-link' to="/portfolio">Portfolio</Link>
+                        <Link className='text-decoration-none footer-link' to="/about-us">About us</Link>
+                        <Link className='text-decoration-none footer-link' to="/blog">Blog</Link>
                     </div>
                     <div className="col-md-3  col-12">
                         <h4 className='footer-head'>Services</h4>
@@ -55,8 +55,8 @@ const Footer = () => {
                             <p className='footer-last'>©TopITLTD 2022. All rights reserved.</p>
                         </div>
                         <div className='d-md-flex'>
-                            <Link to="/" target="_blank" className='text-decoration-none'><p className='footer-last me-3'>Privacy Policy</p></Link>
-                            <Link to="/" target="_blank" className='text-decoration-none'><p className='footer-last'>Terms of Conditions</p></Link>
+                            <Link to="/privacy" className='text-decoration-none'><p className='footer-last me-3'>Privacy Policy</p></Link>
+                            <Link to="/tram&Condition" className='text-decoration-none'><p className='footer-last'>Terms of Conditions</p></Link>
                         </div>
 
                     </div>

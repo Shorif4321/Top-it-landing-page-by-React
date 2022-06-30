@@ -23,6 +23,12 @@ import { HashLink } from 'react-router-hash-link';
 
 
 const Services = () => {
+    /* ========= Page Load from top of the page code start ========= */
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    /* ========= Page Load from top of the page code end ========= */
+
     const [servicesn, setServicesn] = useState([])
     useEffect(() => {
         fetch('./Services.JSON')
@@ -32,22 +38,6 @@ const Services = () => {
 
     return (
         <>
-            <div id='service' className='container d-lg-flex justify-content-between align-items-center my-5' data-aos="fade-up"
-                data-aos-duration="500">
-                <div className='col-12 col-md-12 col-lg-5'>
-                    <div className='service-banner' data-aos="fade-up"
-                        data-aos-duration="1000">
-                        <h4 className='discover-text'>Discover own Identity with New Experience</h4>
-                        <h6>Vast advantage of technology has opened a new window of new oppertunirties. Attach your dreams with magical touch of Infomation and Technoplogy and reach at the last corner of the world with the best outcome of your own business and services. We are being committed standing by 24/7 only for you, only for your brand & business.</h6>
-                    </div>
-                    {/*   <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Service</p> */}
-                </div>
-                <div className='col-12 col-md-12 col-lg-4'>
-                    <div className='service-banner-img'>
-                        <img className='img-fluid' src={seviceImage} alt="" />
-                    </div>
-                </div>
-            </div>
 
             {/*============= service item start =========== */}
             <div className='container mt-5 d-flex flex-wrap py-5 px-sm-2 px-md-5 '>
@@ -113,9 +103,30 @@ const Services = () => {
                         </h4>
                     </a>
                 </div>
+            </div>
 
 
-                {/*      {servicesn.map(servicen =>
+            <div id='service' className='container d-lg-flex justify-content-between align-items-center my-5' data-aos="fade-up"
+                data-aos-duration="500">
+                <div className='col-12 col-md-12 col-lg-5'>
+                    <div className='service-banner' data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <h4 className='discover-text'>Discover own Identity with New Experience</h4>
+                        <h6>Vast advantage of technology has opened a new window of new oppertunirties. Attach your dreams with magical touch of Infomation and Technoplogy and reach at the last corner of the world with the best outcome of your own business and services. We are being committed standing by 24/7 only for you, only for your brand & business.</h6>
+                    </div>
+                    {/*   <p className='navigation'>Home <img className='mx-3' src={right} alt="" /> Service</p> */}
+                </div>
+                <div className='col-12 col-md-12 col-lg-4'>
+                    <div className='service-banner-img'>
+                        <img className='img-fluid' src={seviceImage} alt="" />
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            {/*      {servicesn.map(servicen =>
                     <div key={servicen.id} className="col-12 col-md-6 col-lg service-page-items my-4">
                         <div href="#serviceOne">
                             <div className='img-back'>
@@ -126,10 +137,9 @@ const Services = () => {
 
                     </div>
                 )} */}
-            </div>
 
             {/*============= service identity1 =========== */}
-            <div id='serviceOne' className="service-identity d-lg-flex justify-content-between align-items-center container mb-5 pb-5">
+            <div id='serviceOne' className="service-identity d-lg-flex justify-content-between align-items-center container">
                 <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
                     data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>

@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./Error.css"
 import { Link } from 'react-router-dom';
 
 const Error = () => {
+    /* ========= Page Load from top of the page code start ========= */
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    /* ========= Page Load from top of the page code end ========= */
     return (
         <div>
             <div className="error-page container">

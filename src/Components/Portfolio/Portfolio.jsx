@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./Portfolio.css"
 import PortfolioImage from "../../Images/portfolioImage.png"
 import right from "../../Images/rightServiceArrow.png"
@@ -16,6 +16,11 @@ import SEO from './SEO/SEO';
 import LetsTalk from '../Shared/LetsTalk/LetsTalk';
 
 const Portfolio = () => {
+    /* ========= Page Load from top of the page code start ========= */
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    /* ========= Page Load from top of the page code end ========= */
     return (
         <>
             <div id='portfolio' className='container d-lg-flex justify-content-between align-items-center my-5' data-aos="fade-up"

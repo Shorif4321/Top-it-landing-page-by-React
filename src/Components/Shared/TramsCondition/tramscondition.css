@@ -1,0 +1,41 @@
+.trams-condition {}
+
+.condition-number {
+    display: flex;
+    justify-content: space-around;
+}
+
+.trams-condition h3 {
+    font-family: 'Inter', sans-serif;
+    color: #091627;
+    border: 1px solid #091627;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+.trams-condition h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    color: #091627;
+
+}
+
+.trams-condition p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0px 16px 0;
+}
+
+.trams-condition:hover h3 {
+    background-color: #091627;
+    color: white;
+    transition: all 1s ease;
+}

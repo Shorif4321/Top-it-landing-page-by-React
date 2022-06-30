@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./ProjectPage.css"
 import fullProject from "../../Images/fullProjectt.png"
 import fullProject5 from "../../Images/555.png"
@@ -15,6 +15,11 @@ import projectShow2 from "../../Images/landingpage.jpeg"
 import LetsTalk from '../Shared/LetsTalk/LetsTalk';
 
 const ProjectPage = () => {
+    /* ========= Page Load from top of the page code start ========= */
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    /* ========= Page Load from top of the page code end ========= */
     return (
         <>
             {/* =========== full project page header ========= */}

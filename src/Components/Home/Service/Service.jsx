@@ -32,7 +32,7 @@ const Service = () => {
                     services.map(service =>
                         <div key={service.id} className="service-new mb-md-5 mb-sm-3">
 
-                            <img src={service.image} alt="" />
+                            <img className='service-head-image' src={service.image} alt="" />
                             <h4 className='service-name'>{service.name}</h4>
                             <p className='service-des px-md-4'>{service.des}</p>
 

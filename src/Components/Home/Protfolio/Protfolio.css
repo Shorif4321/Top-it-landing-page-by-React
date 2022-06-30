@@ -63,7 +63,7 @@
 
 .portfolio-hove:hover .portfolio-text {
     display: block;
-    transition: 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .portfolio-text p {
@@ -143,6 +143,8 @@
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px 0px;
         padding: 0px 20px;
+
+
     }
 
     .portfolio-text {

@@ -45,7 +45,7 @@ const Review = () => {
 
                     </div>
                     <div className='col-md-12 col-lg-4 col-12'>
-                        <img className='review-left-image' src={john} alt="" />
+                        <img className='review-left-image img-fluid rounded' src={john} alt="" />
 
                     </div>
                 </div>
