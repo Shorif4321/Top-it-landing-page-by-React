@@ -24,9 +24,9 @@ import { HashLink } from 'react-router-hash-link';
 
 const Services = () => {
     /* ========= Page Load from top of the page code start ========= */
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
+    /*  useEffect(() => {
+         window.scrollTo(0, 0)
+     }, []) */
     /* ========= Page Load from top of the page code end ========= */
 
     const [servicesn, setServicesn] = useState([])
@@ -40,7 +40,7 @@ const Services = () => {
         <>
 
             {/*============= service item start =========== */}
-            <div className='container mt-5 d-flex flex-wrap py-5 px-sm-2 px-md-5 '>
+            <div className='container mt-5 d-flex flex-wrap pt-5 px-sm-2 px-md-5 '>
                 <div className='col-12 col-md-6 col-lg service-page-items my-4' data-aos="flip-left"
                     data-aos-duration="1000">
                     <a href="#serviceOne" className='text-decoration-none'>
@@ -51,6 +51,7 @@ const Services = () => {
                         </h4>
                     </a>
                 </div>
+
                 <div className='col-12 col-md-6 col-lg service-page-items my-4' data-aos="flip-left"
                     data-aos-duration="1000">
                     <a href="#serviceTwo" className='text-decoration-none'>
@@ -106,7 +107,7 @@ const Services = () => {
             </div>
 
 
-            <div id='service' className='container d-lg-flex justify-content-between align-items-center my-5' data-aos="fade-up"
+            <div id='service' className='container d-lg-flex justify-content-between align-items-center mt-5 pt-5' data-aos="fade-up"
                 data-aos-duration="500">
                 <div className='col-12 col-md-12 col-lg-5'>
                     <div className='service-banner' data-aos="fade-up"
@@ -124,50 +125,40 @@ const Services = () => {
             </div>
 
 
-
-
-            {/*      {servicesn.map(servicen =>
-                    <div key={servicen.id} className="col-12 col-md-6 col-lg service-page-items my-4">
-                        <div href="#serviceOne">
-                            <div className='img-back'>
-                                <img className='img-fluid' src={servicen.image} alt="" />
-                            </div>
-                            <h4>{servicen.name}</h4>
-                        </div>
-
-                    </div>
-                )} */}
-
             {/*============= service identity1 =========== */}
-            <div id='serviceOne' className="service-identity d-lg-flex justify-content-between align-items-center container">
-                <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
-                    data-aos-duration="1000">
-                    <h5> Services <span className='service-span'></span></h5>
-                    <h2>Branding & Identity</h2>
-                    <p>“Your Brand,Your Dream” is the main motto of your business. Creating brand awareness among the people of the local market and international markert is is definitely challenging But the challenge can not stop branding. The more challenge you face in branding, the more awareness will seen among the clients and customers you have already targeted.
-                    </p>
-                    <p className='mt-3'>Don’t be much worried because the topitltd has a group of marketing experts who are dedicated to creating the outcome of making your branding and identity. Grow up your brands and identity with the extreme efforts of the topitltd.
-                    </p>
+            <div id='serviceOne' className='pt-5 mt-5'>
+                <div className='pt-5'>
+                    <div className="service-identity d-lg-flex justify-content-between align-items-center container">
+                        <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
+                            data-aos-duration="1000">
+                            <h2>Branding & Identity</h2>
+                            <p>“Your Brand,Your Dream” is the main motto of your business. Creating brand awareness among the people of the local market and international markert is is definitely challenging But the challenge can not stop branding. The more challenge you face in branding, the more awareness will seen among the clients and customers you have already targeted.
+                            </p>
+                            <p className='mt-3'>Don’t be much worried because the topitltd has a group of marketing experts who are dedicated to creating the outcome of making your branding and identity. Grow up your brands and identity with the extreme efforts of the topitltd.
+                            </p>
 
-                    <div className='my-3'>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Increase Brand Awareness</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand Positioning </h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Style Guide</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Social Media Branding</h6>
+                            <div className='my-3'>
+                                <h6><img className='img-fluid me-2' src={sign} alt="" /> Increase Brand Awareness</h6>
+                                <h6><img className='img-fluid me-2' src={sign} alt="" /> Brand Positioning </h6>
+                                <h6><img className='img-fluid me-2' src={sign} alt="" /> Style Guide</h6>
+                                <h6><img className='img-fluid me-2' src={sign} alt="" /> Social Media Branding</h6>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-12 col-lg-5 mt-md-5 ">
+                            <div>
+                                <img className='img-fluid ' src={serviceIdentity} alt="" />
+                            </div>
+                        </div>
                     </div>
+
                 </div>
 
-                <div className="col-12 col-md-12 col-lg-5 mt-md-5 ">
-                    <div>
-                        <img className='img-fluid ' src={serviceIdentity} alt="" />
-                    </div>
-                </div>
             </div>
 
 
             {/*============= service identity2 =========== */}
-            <div id='serviceTwo' className="service-identity d-lg-flex justify-content-between align-items-center container my-5 py-5">
-                <div className="col-12 col-md-12 col-lg-5 mb-md-5">
+            <div id='serviceTwo' className="service-identity d-lg-flex justify-content-between align-items-center container pt-5">
+                <div className="col-12 col-md-12 col-lg-5 pt-md-5">
                     <div>
                         <img className='img-fluid ' src={image2} alt="" />
                     </div>
@@ -210,11 +201,6 @@ const Services = () => {
                     </p>
 
                     <div className='my-3'>
-
-
-
-
-
                         <h6><img className='img-fluid me-2' src={sign} alt="" /> Unique Design</h6>
                         <h6><img className='img-fluid me-2' src={sign} alt="" /> Best Color Combination</h6>
                         <h6><img className='img-fluid me-2' src={sign} alt="" /> More Re-Touch</h6>
@@ -259,18 +245,11 @@ const Services = () => {
                 <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
                     data-aos-duration="1000">
                     <h5> Services <span className='service-span'></span></h5>
-                    <h2>Affiliate Marketing</h2>
+                    <h2>Affiliate Marketing </h2>
                     <p>
                         Affiliate Marketing is such a type of marketing where a marketer or publisher can generate a lot of revenue and commission on a specific service or product without any investment. This marketing strategy is getting popular in Bangladesh and other countries of the world. Amazon, Alibaba, and Daraz are the most popular and biggest affiliate sites and you can generate a lot of revenue and commission working at home. But how?
                     </p>
-
                     <div className='my-3'>
-
-
-
-
-
-
                         <h6><img className='img-fluid me-2' src={sign} alt="" /> Quality Affiliates</h6>
                         <h6><img className='img-fluid me-2' src={sign} alt="" /> Products That Provide Value to Customers</h6>
                         <h6><img className='img-fluid me-2' src={sign} alt="" /> Attention to Key Performance Indicators </h6>
@@ -284,32 +263,37 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            {/*============= service identity4 =========== */}
-            <div id='serviceSix' className="service-identity d-lg-flex justify-content-between align-items-center container my-5 py-5">
-                <div className="col-12 col-md-12 col-lg-5 mb-md-5">
-                    <div>
-                        <img className='img-fluid ' src={image6} alt="" />
-                    </div>
-                </div>
-                <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
-                    data-aos-duration="1000">
-                    <h5> Services <span className='service-span'></span></h5>
-                    <h2>SEO & Digital Marketing</h2>
-                    <p>
-                        Digital Marketing is such a marketing strategy in which business is run through using various digital platforms not using the traditional marketing tools and media. As all types of digital tools and media are used, the sales and profits of service and products are more than that of traditional marketing
-                    </p>
-                    <p className='mt-3'>
-                        When you are thinking of making your own branding and spreading out both nationally and internationally, you must do it now by Digital Marketing because the traditional marketing is definitely bounded only in the some specific local areas. Grow up business in the next level by the touch of digital platforms and make more profits as you expect. Don’t be late, start now.
-                    </p>
+            {/*============= service identity 7 =========== */}
+            <div id='serviceSix' className='py-5'>
 
-                    <div className='my-3'>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Online advertising</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Search Engine Optimization</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Online Content and Blogging</h6>
-                        <h6><img className='img-fluid me-2' src={sign} alt="" /> Email and Online Newsletter Marketing</h6>
+                <div className="service-identity d-lg-flex justify-content-between align-items-center container ">
+                    <div className="col-12 col-md-12 col-lg-5">
+                        <div>
+                            <img className='img-fluid ' src={image6} alt="" />
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-12 col-lg-6" data-aos="zoom-out-down"
+                        data-aos-duration="1000">
+                        <h1 className='mt-5'></h1>
+
+                        <h2 className=''>SEO & Digital Marketing</h2>
+                        <p>
+                            Digital Marketing is such a marketing strategy in which business is run through using various digital platforms not using the traditional marketing tools and media. As all types of digital tools and media are used, the sales and profits of service and products are more than that of traditional marketing
+                        </p>
+                        <p className='mt-3'>
+                            When you are thinking of making your own branding and spreading out both nationally and internationally, you must do it now by Digital Marketing because the traditional marketing is definitely bounded only in the some specific local areas. Grow up business in the next level by the touch of digital platforms and make more profits as you expect. Don’t be late, start now.
+                        </p>
+
+                        <div className='my-3'>
+                            <h6><img className='img-fluid me-2' src={sign} alt="" /> Online advertising</h6>
+                            <h6><img className='img-fluid me-2' src={sign} alt="" /> Search Engine Optimization</h6>
+                            <h6><img className='img-fluid me-2' src={sign} alt="" /> Online Content and Blogging</h6>
+                            <h6><img className='img-fluid me-2' src={sign} alt="" /> Email and Online Newsletter Marketing</h6>
+                        </div>
                     </div>
                 </div>
             </div>
+
 
 
             {/*============= Let's Talk  =========== */}

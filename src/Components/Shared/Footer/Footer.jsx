@@ -31,12 +31,12 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3  col-12">
                         <h4 className='footer-head'>Services</h4>
-                        <HashLink className='footer-link' to="/service/#serviceOne"> Branding and Identity</HashLink>
-                        <HashLink className='footer-link' to="/service/#serviceFour">Web Design and Development</HashLink>
-                        <HashLink className='footer-link' to="/service/#serviceTwo">Saas Development</HashLink>
-                        <HashLink className='footer-link' to="/service/#serviceThree">Graphic Design</HashLink>
-                        <HashLink className='footer-link' to="/service/#serviceSix">SEO and Digital Marketing</HashLink>
-                        <HashLink className='footer-link' to="/service/#serviceFive">Affiliate Marketing</HashLink>
+                        <HashLink smooth className='footer-link' to="/service/#serviceOne"> Branding and Identity</HashLink>
+                        <HashLink smooth className='footer-link' to="/service/#serviceFour">Web Design and Development</HashLink>
+                        <HashLink smooth className='footer-link' to="/service/#serviceTwo">Saas Development</HashLink>
+                        <HashLink smooth className='footer-link' to="/service/#serviceThree">Graphic Design</HashLink>
+                        <HashLink smooth className='footer-link' to="/service/#serviceSix">SEO and Digital Marketing</HashLink>
+                        <HashLink smooth className='footer-link' to="/service/#serviceFive">Affiliate Marketing</HashLink>
                     </div>
                     <div className="col-md-3 col-12 first-colum">
                         <h4 className='footer-head'>Contact Us</h4>

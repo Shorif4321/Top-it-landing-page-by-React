@@ -63,7 +63,8 @@
 
 .portfolio-hove:hover .portfolio-text {
     display: block;
-    transition: all 0.5s ease-in;
+    transition: all 500ms ease;
+
 }
 
 .portfolio-text p {
