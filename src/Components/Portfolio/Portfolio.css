@@ -1,4 +1,4 @@
-.nav {
+/* .nav {
     --bs-nav-link-color: #091627;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -34,6 +34,28 @@
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+} */
+
+.nav-tabs {
+    --bs-nav-tabs-link-active-color: #f14e4e;
+    color: black;
+    transition: all 0.3s ease-in;
+    margin: 0 0px;
+    border-bottom: 1px solid #515d6d39;
+    transition: all 0.3s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-link {
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #091627;
+    font-weight: 600;
+
 }
 
 @media only screen and (max-width: 667px) {

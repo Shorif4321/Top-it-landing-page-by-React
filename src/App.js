@@ -13,6 +13,7 @@ import Footer from './Components/Shared/Footer/Footer';
 import Header from './Components/Shared/Header/Header';
 import PrivacyPolicy from './Components/Shared/PrivacyPolicy/PrivacyPolicy';
 import TramsCondition from './Components/Shared/TramsCondition/TramsCondition';
+import Technologies from './Components/Technologies/Technologies';
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home></Home>} />
           <Route path="/home" element={<Home></Home>} />
+          <Route path="/technologies" element={<Technologies></Technologies>} />
           <Route path="/service" element={<Services></Services>} />
           <Route path="/portfolio" element={<Portfolio></Portfolio>} />
           <Route path="/about-us" element={<AboutUs></AboutUs>} />

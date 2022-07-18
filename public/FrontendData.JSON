@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "image": "https://i.ibb.co/CzmhwGv/react.png",
+        "name": "React Js"
+    },
+    {
+        "id": "2",
+        "image": "https://i.ibb.co/SmS4wt4/view-js.png",
+        "name": "Vue Js"
+    },
+    {
+        "id": "3",
+        "image": "https://i.ibb.co/THz9Ywf/angular.png",
+        "name": "Angular JS"
+    },
+    {
+        "id": "4",
+        "image": "https://i.ibb.co/gZwygZr/tipescript.png",
+        "name": "Typescript"
+    },
+    {
+        "id": "5",
+        "image": "https://i.ibb.co/bHgtmh0/download.png",
+        "name": "HTML CSS"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "image": "https://i.ibb.co/K2prhG2/php.png",
+        "name": "PHP"
+    },
+    {
+        "id": "2",
+        "image": "https://i.ibb.co/4tqCcM1/laravel.png",
+        "name": "Laravel"
+    },
+    {
+        "id": "3",
+        "image": "https://i.ibb.co/Fq9dg2h/node.png",
+        "name": "Node Js"
+    },
+    {
+        "id": "4",
+        "image": "https://i.ibb.co/jfmQyx1/python.png",
+        "name": "Python"
+    },
+    {
+        "id": "5",
+        "image": "https://i.ibb.co/gZRNs05/java.png",
+        "name": "Java"
+    }
+]

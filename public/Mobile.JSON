@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "image": "https://i.ibb.co/RvCWK6F/38002.png",
+        "name": "Android"
+    },
+    {
+        "id": "2",
+        "image": "https://i.ibb.co/WpkkcYv/download-3.png",
+        "name": "IOS"
+    },
+    {
+        "id": "3",
+        "image": "https://i.ibb.co/kJDvfGG/download.png",
+        "name": "React Native"
+    },
+    {
+        "id": "4",
+        "image": "https://i.ibb.co/X2TJ9X2/download-1.png",
+        "name": "Flutter"
+    },
+    {
+        "id": "5",
+        "image": "https://i.ibb.co/zJ4Zhg0/download-2.png",
+        "name": "Kotlin"
+    },
+    {
+        "id": "6",
+        "image": "https://i.ibb.co/j5RKXvX/images.png",
+        "name": "Swift"
+    }
+]

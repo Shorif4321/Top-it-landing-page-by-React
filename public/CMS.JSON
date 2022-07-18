@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "image": "https://i.ibb.co/Qv3gK1L/shopify.png",
+        "name": "Shopify"
+    },
+    {
+        "id": "2",
+        "image": "https://i.ibb.co/m0MkPqC/wp.png",
+        "name": "Wordpress"
+    },
+    {
+        "id": "3",
+        "image": "https://i.ibb.co/xHVC9Qw/download-1.png",
+        "name": "Magento"
+    },
+    {
+        "id": "4",
+        "image": "https://i.ibb.co/hsT0xd8/download.png",
+        "name": "Zoomla"
+    },
+    {
+        "id": "5",
+        "image": "https://i.ibb.co/3kPxGxT/d.png",
+        "name": "Drupal"
+    }
+]

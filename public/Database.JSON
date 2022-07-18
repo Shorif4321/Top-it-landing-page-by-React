@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "image": "https://i.ibb.co/HCj0G69/mysql-logo.png",
+        "name": "MySQL"
+    },
+    {
+        "id": "2",
+        "image": "https://i.ibb.co/Tk8w5xj/mogodb.png",
+        "name": "MongDB"
+    },
+    {
+        "id": "3",
+        "image": "https://i.ibb.co/sm98cyx/msSql.png",
+        "name": "MsSQL"
+    },
+    {
+        "id": "4",
+        "image": "https://i.ibb.co/xXqxXpM/firebase.png",
+        "name": "Firebase"
+    },
+    {
+        "id": "5",
+        "image": "https://i.ibb.co/PZk23zy/nosql.png",
+        "name": "NoSQL"
+    }
+]
