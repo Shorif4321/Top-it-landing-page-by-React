@@ -9,14 +9,14 @@ const Mobile = () => {
     }, [])
     return (
         <div>
-            <div className='container mt-5 d-flex justify-content-around pt-5 px-sm-2 px-md-5 '>
+            <div className='container mt-5   pt-5 px-sm-2 px-md-5 technologist-items'>
                 {
                     frontends.map(frontend => <div
                         key={frontend.id} className='frontend' /* data-aos="flip-left"
                 data-aos-duration="1000" */>
                         <div>
                             <img className='img-fluid' src={frontend.image} alt="" />
-                            <h4>{frontend.name}
+                            <h4 className='mb-5'>{frontend.name}
                             </h4>
                         </div>
 

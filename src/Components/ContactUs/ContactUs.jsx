@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import "./ContactUs.css"
-import right from "../../Images/rightServiceArrow.png"
 import messageBox from "../../Images/massagebox.png"
 import locationbox from "../../Images/locationbox.png"
 import phoneBox from "../../Images/phoneBox.png"

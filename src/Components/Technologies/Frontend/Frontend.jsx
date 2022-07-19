@@ -5,8 +5,6 @@ import './Frontend.css'
 
 
 const Frontend = () => {
-
-
     const [frontends, setFrontends] = useState([])
     useEffect(() => {
         fetch('./FrontendData.JSON')
@@ -24,7 +22,7 @@ const Frontend = () => {
                         data-aos-duration="1000" */>
                         <div>
                             <img className='img-fluid' src={frontend.image} alt="" />
-                            <h4 className='mb-4'>{frontend.name}
+                            <h4 className='mb-5'>{frontend.name}
                             </h4>
                         </div>
 

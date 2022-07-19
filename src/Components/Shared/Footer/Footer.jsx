@@ -16,18 +16,20 @@ const Footer = () => {
                         <p className='pe-md-5'>The TOP IT LTD has the same motives to make a skilled generation of information and technology in Bangladesh and worldwide.
                         </p>
                         <h6>GET IN TOUCH</h6>
-                        <p ><a href="https://www.facebook.com/topitltdbd" target="_blank" className='text-decoration-none'><i className="social fab fa-facebook-f"></i></a>
-                            <a href="" target="_blank" className='text-decoration-none'> <i className="social fab fa-twitter"></i></a>
-                            <a href="" target="_blank" className='text-decoration-none'>  <i className="social fab fa-instagram"></i></a>
+                        <p ><a href="https://www.facebook.com/topitltdbd" target="_blank" className='text-decoration-none'><i className="social3 fab fa-facebook-f"></i></a>
+                            <a href="" target="_blank" className='text-decoration-none'> <i className="social4 fab fa-twitter"></i></a>
+                            <a href="" target="_blank" className='text-decoration-none'>  <i className="social5 fab fa-instagram"></i></a>
                         </p>
                     </div>
                     <div className="col-md-3  col-12">
                         <h4 className='footer-head'>Quick Links</h4>
                         <Link className='text-decoration-none footer-link' to="/home">Home</Link>
+                        <Link className='text-decoration-none footer-link' to="/technologies">Technologies</Link>
                         <Link className='text-decoration-none footer-link' to="/service">Service</Link>
                         <Link className='text-decoration-none footer-link' to="/portfolio">Portfolio</Link>
                         <Link className='text-decoration-none footer-link' to="/about-us">About us</Link>
                         <Link className='text-decoration-none footer-link' to="/blog">Blog</Link>
+
                     </div>
                     <div className="col-md-3  col-12">
                         <h4 className='footer-head'>Services</h4>

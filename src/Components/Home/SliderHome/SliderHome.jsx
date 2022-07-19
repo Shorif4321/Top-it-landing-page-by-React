@@ -6,6 +6,11 @@ import "slick-carousel/slick/slick-theme.css";
 import sliderImage from "../../../Images/bannerUnder.png"
 import sliderImage1 from "../../../Images/slider2.png"
 import sliderImage2 from "../../../Images/slider3.png"
+import i2 from "../../../Images/i2.png"
+import i3 from "../../../Images/i3.png"
+import i4 from "../../../Images/i4.png"
+import i5 from "../../../Images/i5.png"
+import i6 from "../../../Images/i6.png"
 
 const SliderHome = () => {
     const settings = {
@@ -21,8 +26,8 @@ const SliderHome = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
                     infinite: true,
                     dots: true
                 }
@@ -44,24 +49,25 @@ const SliderHome = () => {
             }
         ]
     };
-    return (<div className='slider container'>
-
+    return (<div className='slider container pb-5'>
         <Slider {...settings}>
             <div className='px-1 slider-items'>
-                <img className='img-fluid' src={sliderImage} alt="" />
+                <img className='img-fluid' src={i5} alt="" />
             </div>
             <div className='px-1 slider-items'>
-                <img className='img-fluid' src={sliderImage2} alt="" />
+                <img className='img-fluid' src={i2} alt="" />
             </div>
             <div className='px-1 slider-items'>
-                <img className='img-fluid' src={sliderImage1} alt="" />
+                <img className='img-fluid' src={i3} alt="" />
             </div>
             <div className='px-1 slider-items'>
-                <img className='img-fluid' src={sliderImage2} alt="" />
+                <img className='img-fluid' src={i4} alt="" />
+            </div>
+            <div className='px-1 slider-items'>
+                <img className='img-fluid' src={i6} alt="" />
             </div>
         </Slider>
     </div>
-
 
     );
 };

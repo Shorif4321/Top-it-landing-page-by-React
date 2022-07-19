@@ -89,7 +89,9 @@
     border-radius: 100%;
 } */
 
-.social {
+.social3,
+.social4,
+.social5 {
     color: white;
     text-align: center;
     margin-right: 24px;
@@ -100,11 +102,14 @@
     border-radius: 100%;
 }
 
-.social:hover {
+.social3:hover,
+.social4:hover,
+.social5:hover {
     color: white;
-    border: 1px solid #F04545;
-    background-color: #F04545;
+    border: 1px solid #1877F2;
+    background-color: #1877F2;
 }
+
 
 .footer-head {
     font-family: 'Inter', sans-serif;

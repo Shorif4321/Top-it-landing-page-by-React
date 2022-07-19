@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Backend from './Backend/Backend';
@@ -9,6 +9,10 @@ import Frontend from './Frontend/Frontend';
 import Mobile from './Mobile/Mobile';
 
 const Technologies = () => {
+    /* ========= Page Load from top of the page code start ========= */
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div className='container'>
             <div className='my-5 py-5 service-banner'>
