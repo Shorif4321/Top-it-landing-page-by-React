@@ -16,7 +16,7 @@ const Protfolio = () => {
                     <h4 className="latest-head">Checkout  Our Amazing work</h4>
                 </div>
                 <div className='mt-sm-4 mb-sm-5'>
-                    <button className='latest-project-button'>Explore All <i class="ms-3 fas fa-arrow-right"></i></button>
+                    <button className='latest-project-button'>Explore All <i className="ms-3 fas fa-arrow-right"></i></button>
 
                 </div>
             </div>

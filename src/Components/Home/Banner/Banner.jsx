@@ -23,10 +23,10 @@ const Banner = () => {
                     </div>
 
                     <div className="col-12 m-auto col-md-6 col-lg-4">
-                        <div class="box" data-aos="zoom-in"
+                        <div className="box" data-aos="zoom-in"
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="1500">
-                            <div class="content" >
+                            <div className="content" >
                                 <img className='img-fluid' src="./../../../Images/banner.png" alt="" />
                             </div>
                         </div>
