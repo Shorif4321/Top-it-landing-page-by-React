@@ -19,7 +19,7 @@ const AboutUs = () => {
     return (
         <>
             {/* ======= about head start========= */}
-            <div id='about' className='container d-lg-flex justify-content-between align-items-center  py-md-5' data-aos="fade-up"
+            <div id='about' className='container d-lg-flex justify-content-between align-items-center  py-md-5 item-reverse' data-aos="fade-up"
                 data-aos-duration="500">
                 <div className='col-12 col-md-12 col-lg-6' data-aos="fade-up"
                     data-aos-duration="1000">
@@ -117,7 +117,7 @@ const AboutUs = () => {
             </div>
 
             {/* =======vision service start ========= */}
-            <div className="aboutUs d-lg-flex justify-content-between align-items-center container pb-5">
+            <div className="aboutUs d-lg-flex justify-content-between align-items-center container pb-5 item-reverse">
                 <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-up"
                     data-aos-duration="1000">
                     <div>

@@ -25,10 +25,9 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
     /* ========= Page Load from top of the page code start ========= */
-    /*  useEffect(() => {
+     useEffect(() => {
          window.scrollTo(0, 0)
-     }, []) */
-    /* ========= Page Load from top of the page code end ========= */
+     }, []) 
 
     const [servicesn, setServicesn] = useState([])
     useEffect(() => {
@@ -127,7 +126,7 @@ const Services = () => {
 
 
             {/*============= service identity1 =========== */}
-            <div id='serviceOne' className='my-5 py-5'></div>
+            <div id='serviceOne' className='my-md-5 py-5  '></div>
             <div className="service-identity d-lg-flex justify-content-between align-items-center container ">
                 <div className="col-12 col-md-12 col-lg-6" /* data-aos="zoom-out-down"
                             data-aos-duration="1000" */>
@@ -153,8 +152,8 @@ const Services = () => {
 
 
             {/*============= service identity2 =========== */}
-            <div id='serviceTwo' className='my-5 py-5'></div>
-            <div className="service-identity d-lg-flex justify-content-between align-items-center container">
+            <div id='serviceTwo' className='my-md-5 py-5'></div>
+            <div className="service-identity d-lg-flex justify-content-between align-items-center container item-reverse">
                 <div className="col-12 col-md-12 col-lg-5 pt-md-5">
                     <div>
                         <img className='img-fluid ' src={image2} alt="" />
@@ -178,7 +177,7 @@ const Services = () => {
             </div>
 
             {/*============= service identity3 =========== */}
-            <div id='serviceThree' className='my-5 py-5'></div>
+            <div id='serviceThree' className='my-md-5 py-5'></div>
             <div id='serviceThree' className="service-identity d-lg-flex justify-content-between align-items-center container ">
                 <div className="col-12 col-md-12 col-lg-6" /* data-aos="zoom-out-down"
                     data-aos-duration="1000" */>
@@ -207,8 +206,8 @@ const Services = () => {
             </div>
 
             {/*============= service identity4 =========== */}
-            <div id='serviceFour' className='my-5 py-5'></div>
-            <div id='' className="service-identity d-lg-flex justify-content-between align-items-center container">
+            <div id='serviceFour' className='my-md-5 py-5'></div>
+            <div id='' className="service-identity d-lg-flex justify-content-between align-items-center container item-reverse">
                 <div className="col-12 col-md-12 col-lg-5 mb-md-5">
                     <div>
                         <img className='img-fluid ' src={image4} alt="" />
@@ -233,7 +232,7 @@ const Services = () => {
             </div>
 
             {/*============= service identity6 =========== */}
-            <div id='serviceFive' className='mb-5 pb-5'></div>
+            <div id='serviceFive' className='my-md-5 py-5'></div>
             <div id='' className="service-identity d-lg-flex justify-content-between align-items-center container ">
                 <div className="col-12 col-md-12 col-lg-6" /* data-aos="zoom-out-down"
                     data-aos-duration="1000" */>
@@ -258,8 +257,8 @@ const Services = () => {
             </div>
 
             {/*============= service identity 7 =========== */}
-            <div id='serviceSix' className='my-5 py-5'></div>
-            <div className="service-identity d-lg-flex justify-content-between align-items-center container pb-5">
+            <div id='serviceSix' className='my-md-5 py-5'></div>
+            <div className="service-identity d-lg-flex justify-content-between align-items-center container pb-5 item-reverse">
                 <div className="col-12 col-md-12 col-lg-5">
                     <div>
                         <img className='img-fluid ' src={image6} alt="" />
@@ -267,9 +266,7 @@ const Services = () => {
                 </div>
                 <div className="col-12 col-md-12 col-lg-6" /* data-aos="zoom-out-down"
                         data-aos-duration="1000" */>
-                    <h1 className='mt-5'></h1>
-
-                    <h2 className=''>SEO & Digital Marketing</h2>
+                    <h2 className='mt-3'>SEO & Digital Marketing</h2>
                     <p>
                         Digital Marketing is such a marketing strategy in which business is run through using various digital platforms not using the traditional marketing tools and media. As all types of digital tools and media are used, the sales and profits of service and products are more than that of traditional marketing
                     </p>

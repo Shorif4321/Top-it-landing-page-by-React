@@ -67,9 +67,9 @@ const ContactUs = () => {
                         <img className='img-fluid' src={messageBox} alt="" />
                         <h5>Email</h5>
                         <p>
-                            contact@topitltd.com
-                            <br />
-                            support@topitltd.com </p>
+                            contact@topitltd.</p>
+                           
+                           <p> support@topitltd.com </p>
                     </div>
                     <div className='iconBOx p-5 col-12 col-md-12 col-lg-4' data-aos="flip-left"
                         data-aos-duration="1000">

@@ -60,7 +60,7 @@
 
 @media only screen and (max-width: 667px) {
     .nav-tabs {
-        justify-content: left;
+        justify-content: space-evenly;
         width: 100%;
 
     }
@@ -69,28 +69,13 @@
         margin: 0px 0 20px 0;
     }
 
-    .nav-tabs .nav-item.show .nav-link,
-    .nav-tabs .nav-link.active {
-        border-radius: 30px;
-        padding: 12px 15px;
-        margin: 0px 0 0 0;
-    }
 
-    .tabs-nav {
-        width: 56%;
-        margin: auto;
-    }
 
 }
 
 @media only screen and (max-width:991px) and (min-width:668px) {
 
-    .nav-tabs .nav-item.show .nav-link,
-    .nav-tabs .nav-link.active {
-        border-radius: 30px;
-        padding: 16px 24px;
-        margin: 0px 0 0 0;
-    }
+   
 
 }
 

@@ -18,7 +18,7 @@ const LetsTalk = () => {
                         </div>
                         <div className='col-12 col-md-12 col-lg-3 text-align-right' data-aos="fade-up"
                             data-aos-duration="1700">
-                            <HashLink className='portfolio-last-button' to="/contact/#contact">Let’s Talk</HashLink>
+                            <Link className='portfolio-last-button' to="/contact">Let’s Talk</Link>
                         </div>
                     </div>
 

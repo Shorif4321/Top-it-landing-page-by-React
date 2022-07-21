@@ -48,17 +48,17 @@
 }
 
 @media only screen and (max-width: 667px) {
-    .nav-tabs {
+  /*   .nav-tabs {
         justify-content: left;
         width: 100%;
     }
-
-    .nav-tabs .nav-item.show .nav-link,
+ */
+  /*   .nav-tabs .nav-item.show .nav-link,
     .nav-tabs .nav-link.active {
         border-radius: 30px;
         padding: 12px 15px;
         margin: 0px 0 0 0;
-    }
+    } */
 
     /* ====== portfolio talk start ========== */
     .portfolio-talk h2 {
@@ -81,13 +81,13 @@
 
 @media only screen and (max-width:991px) and (min-width:668px) {
 
-    .nav-tabs .nav-item.show .nav-link,
+  /*   .nav-tabs .nav-item.show .nav-link,
     .nav-tabs .nav-link.active {
         border-radius: 30px;
         padding: 16px 24px;
         margin: 0px 0 0 0;
     }
-
+ */
     .portfolio-talk h2 {
         font-size: 35px;
         line-height: 40px;
