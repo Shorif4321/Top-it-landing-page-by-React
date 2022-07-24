@@ -14,6 +14,7 @@ import Development from './Development/Development';
 import GraphicDesign from './GraphicDesign/GraphicDesign';
 import SEO from './SEO/SEO';
 import LetsTalk from '../Shared/LetsTalk/LetsTalk';
+import Review from '../Home/Review/Review';
 
 const Portfolio = () => {
     /* ========= Page Load from top of the page code start ========= */
@@ -85,36 +86,9 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className='container mt-md-5'>
-                    <div className=' m-auto d-lg-flex align-items-center'>
-                        <div className='col-md-12 col-lg-8 col-12' data-aos="zoom-out-down"
-                            data-aos-duration="1000">
-                            <div className='star-review pe-md-5 '>
-                                <p>4.00 <i className=" icon-custom fas fa-star"> </i>
-                                    <i className=" icon-custom fas fa-star"></i>
-                                    <i className=" icon-custom fas fa-star"> </i>
-                                    <i className=" icon-custom fas fa-star"></i>
-                                    <i className=" icon-custom fas fa-star"></i></p>
-                                <h4 className='text-review'>
-                                    ”Lorem ipsum dolor sit amet, ut consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum st turpis.“
-                                </h4>
-                                <div className='user pt-3'>
-                                    <div>
-                                        <img src={john} alt="" />
-                                    </div>
-                                    <div>
-                                        <h6>Jane Cooper</h6>
-                                        <p>User Interface Design</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-md-12 col-lg-4 col-12' data-aos="zoom-out-up"
-                            data-aos-duration="1500">
-                            <img className='review-left-image' src={reviwImage} alt="" />
-
-                        </div>
-                    </div>
+                {/* ========== Review section start =========== */}
+                <div className=' mt-md-5'>
+                    <Review></Review>
                 </div>
             </div>
             <LetsTalk></LetsTalk>

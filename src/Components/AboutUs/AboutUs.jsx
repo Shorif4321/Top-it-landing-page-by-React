@@ -19,10 +19,10 @@ const AboutUs = () => {
     return (
         <>
             {/* ======= about head start========= */}
-            <div id='about' className='container d-lg-flex justify-content-between align-items-center  py-md-5 item-reverse' data-aos="fade-up"
-                data-aos-duration="500">
-                <div className='col-12 col-md-12 col-lg-6' data-aos="fade-up"
-                    data-aos-duration="1000">
+            <div id='about' className='container d-lg-flex justify-content-between align-items-center  py-md-5 item-reverse' /* data-aos="fade-up"
+                data-aos-duration="500" */>
+                <div className='col-12 col-md-12 col-lg-6' /* data-aos="fade-up"
+                    data-aos-duration="1000" */>
                     <div className='service-banner'>
                         <h1>About Us</h1>
                         <h6 className=''>The 21st Century is called the century of acquiring new skills of information and technology because the previous century has created the utmost development of this sector randomly all around the world by the hand of thousands of technologists like Bil Gates, Steve Jobs and so on.
@@ -43,14 +43,14 @@ const AboutUs = () => {
 
             {/* ======= about who are you start ========= */}
             <div className="aboutUs d-lg-flex  justify-content-between align-items-center container my-md-5 py-5" >
-                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-down"
-                    data-aos-duration="1000">
+                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " /* data-aos="zoom-out-down"
+                    data-aos-duration="1000" */>
                     <div>
                         <img className='img-fluid w-100 mb-sm-5 rounded' src={about1} alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-12 col-lg-7" data-aos="zoom-out-up"
-                    data-aos-duration="1000">
+                <div className="col-12 col-md-12 col-lg-7" /* data-aos="zoom-out-up"
+                    data-aos-duration="1000" */>
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className='mb-3 '>Who We Are?</h2>
                     <p>
@@ -59,12 +59,7 @@ const AboutUs = () => {
                     <p>
                         A lot of people who love to work with information and technology in business and corporations come here and take all types of training, services and support from Bangladesh and countries around the world. As a result, the company has acquired much popularity because of its better services.
                     </p>
-                    {/* <p>
-                        When the Covid-19 spread out all over the world, Government and Non-Government offices were bound to stop their official duties. Though they thought of continuing their home offices, they needed various types of technological support and the Topitltd provided them with all types of support with much care.
-                    </p>
-                    <p>
-                        As the range of services was broadened gradually, the company took various steps with setting up a new office at Mohammadpur, Dhaka in 2021. Now, all classes of people in the country and those abroad are getting the best services 24/7 from Topitltd.
-                    </p> */}
+
 
                     <div className='my-3'>
                         <h6><img className='about-one img-fluid me-2' src={sign} alt="" /> Making lives easier</h6>
@@ -77,8 +72,8 @@ const AboutUs = () => {
 
             {/* =======about service 2 start ========= */}
             <div className="aboutUs d-lg-flex justify-content-between align-items-center container my-md-5 pb-5">
-                <div className="col-12 col-md-12 col-lg-7" data-aos="zoom-out-up"
-                    data-aos-duration="1000">
+                <div className="col-12 col-md-12 col-lg-7" /* data-aos="zoom-out-up"
+                    data-aos-duration="1000" */>
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className='mb-4'>Be Skilled, Be Confident.</h2>
                     <p className='about-p'>
@@ -88,8 +83,8 @@ const AboutUs = () => {
 
                     </p>
                 </div>
-                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-down"
-                    data-aos-duration="1000">
+                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " /* data-aos="zoom-out-down"
+                    data-aos-duration="1000" */>
                     <div>
                         <img className='img-fluid w-100 rounded' src={about20} alt="" />
                     </div>
@@ -97,8 +92,8 @@ const AboutUs = () => {
             </div>
             {/* ======= about missions service 3 start ========= */}
             <div className="aboutUs d-lg-flex justify-content-between align-items-center container my-5 py-md-5">
-                <div className="col-12 col-md-12 col-lg-7" data-aos="zoom-out-down"
-                    data-aos-duration="1000">
+                <div className="col-12 col-md-12 col-lg-7" /* data-aos="zoom-out-down"
+                    data-aos-duration="1000" */>
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className=' mb-4'>Mission</h2>
                     <p className='about-p'>
@@ -108,8 +103,8 @@ const AboutUs = () => {
                         As the people of the worldwide are getting involved in the meta-verse of the technology both in their personal life and business, they need the best services and support so that they can get the best benefit of the technology for the betterment of their business.
                     </p>
                 </div>
-                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-up"
-                    data-aos-duration="1000">
+                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " /* data-aos="zoom-out-up"
+                    data-aos-duration="1000" */>
                     <div>
                         <img className='img-fluid w-100' src={about2} alt="" />
                     </div>
@@ -118,14 +113,14 @@ const AboutUs = () => {
 
             {/* =======vision service start ========= */}
             <div className="aboutUs d-lg-flex justify-content-between align-items-center container pb-5 item-reverse">
-                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " data-aos="zoom-out-up"
-                    data-aos-duration="1000">
+                <div className="col-12 col-md-12 col-lg-4 mt-md-4 " /* data-aos="zoom-out-up"
+                    data-aos-duration="1000" */>
                     <div>
                         <img className='img-fluid w-100 mb-sm-5' src={about3} alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-md-12 col-lg-8" data-aos="zoom-out-down"
-                    data-aos-duration="1000">
+                <div className="col-12 col-md-12 col-lg-8" /* data-aos="zoom-out-down"
+                    data-aos-duration="1000" */>
                     {/*  <h5> Services <span className='service-span'></span></h5> */}
                     <h2 className='mb-3 '>Visions</h2>
                     <p className='about-p'>

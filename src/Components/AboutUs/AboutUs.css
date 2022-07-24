@@ -21,7 +21,7 @@
     text-align: left;
 }
 
-.aboutUs h6{
+.aboutUs h6 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -40,19 +40,18 @@
         margin: 15px 0 0 0;
         line-height: 35px;
         text-align: center;
-    
+
     }
-    
+
     .aboutUs p {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 30px;
-        text-align: center;
     }
-    
-    .aboutUs h6{
+
+    .aboutUs h6 {
         text-align: center;
 
     }
@@ -65,16 +64,16 @@
         margin: 20px 0 0 0;
         line-height: 45px;
         text-align: center;
-    
+
     }
-    
+
     .aboutUs p {
         font-size: 18px;
         line-height: 30px;
         text-align: center;
     }
-    
-    .aboutUs h6{
+
+    .aboutUs h6 {
         text-align: center;
 
     }

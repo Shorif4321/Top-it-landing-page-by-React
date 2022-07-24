@@ -19,15 +19,14 @@ import image5 from "../../Images/05.png"
 import image6 from "../../Images/06.png"
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 
 
 const Services = () => {
     /* ========= Page Load from top of the page code start ========= */
-     useEffect(() => {
-         window.scrollTo(0, 0)
-     }, []) 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const [servicesn, setServicesn] = useState([])
     useEffect(() => {
