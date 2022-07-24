@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 
 const Header = () => {
-const [expanded, setExpanded] = useState(false);
+    const [expanded, setExpanded] = useState(false);
     //change color on scroll
     const [color, setColor] = useState(false);
     const changeColor = () => {
@@ -24,7 +24,7 @@ const [expanded, setExpanded] = useState(false);
             <Navbar expanded={expanded} className={color ? 'nav-basic on-scroll' : 'nav-basic'} expand="lg py-4  " >{/*  */}
                 <Container className='d-flex'>
                     <Navbar.Brand ><Link to="/"> <img className='img-fluid' src={logo} alt="" /> </Link></Navbar.Brand>
-                    <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")}  className='mb-1' aria-controls="navbarScroll" />
+                    <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} className='mb-1' aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="nav-items ms-auto my-2 my-lg-0"
@@ -40,8 +40,6 @@ const [expanded, setExpanded] = useState(false);
                             <Nav.Link className='last-child ms-md-3' ><Link onClick={() => setExpanded(false)} to='/contact'>Let’s Talk</Link></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
-
-
                 </Container>
             </Navbar>
 
