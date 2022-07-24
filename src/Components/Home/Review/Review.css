@@ -3,7 +3,7 @@
 }
 
 .star-review p {
-    text-align: left;
+    text-align: center;
 }
 
 .icon-custom {
@@ -21,47 +21,45 @@
     /*  margin: 0px auto 350px auto; */
 }
 
+
+
 .star-review p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px
 }
 
 .text-review {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
+    font-weight: 400;
+    font-size: 16px;
     color: #091627;
-    text-align: left;
-    margin-top: 25px;
+    text-align: center;
 }
 
 .user {
     display: flex;
     align-items: center;
+    flex-direction: column;
 
 }
 
 .user img {
-    width: 54px;
-    height: 54px;
+    width: 85px;
+    height: 85px;
     border-radius: 100%;
-    margin: 10px 15px 0px 0px;
+    margin-top: 10px;
 }
 
 .user h6 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
     color: #0D0E16;
-    text-align: left;
-    margin: 0;
+    margin: 10px 0;
 }
 
 .user p {
@@ -82,7 +80,22 @@
     object-fit: cover;
 }
 
+.slider-div {
+    padding: 0 30px;
+}
+
+
 @media only screen and (max-width: 667px) {
+
+    /* .slick-next {
+        display: none;
+    }
+
+    .slick-prev {
+        display: none;
+    } */
+
+
     .latest-head {
         text-align: center;
         padding: 0 25px;
@@ -98,16 +111,10 @@
         text-align: center;
     }
 
-    .text-review {
-        line-height: 32px;
-        color: #091627;
-        text-align: center;
-        font-size: 25px;
-        margin-top: 25px;
-    }
+
 
     .user {
-        margin-bottom: 30px;
+
         justify-content: center;
 
     }
@@ -142,15 +149,9 @@
         text-align: center;
     }
 
-    .text-review {
-        line-height: 40px;
-        text-align: center;
-        font-size: 30px;
-        margin-top: 25px;
-    }
+
 
     .user {
-        margin-bottom: 30px;
         justify-content: center;
 
     }

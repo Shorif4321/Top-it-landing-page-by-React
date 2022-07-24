@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "image": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=2000",
+        "name": "Hancy Halka",
+        "des": "Great worker, I love how he take care of the site plus he replies faster than I, tHANK YOU Top It Ltd DEFINITELY CHOSE AGAIN!!!",
+        "designation": "CEO"
+    },
+    {
+        "id": "2",
+        "image": "https://media.istockphoto.com/photos/smiling-man-outdoors-in-the-city-picture-id1179420343?k=20&m=1179420343&s=612x612&w=0&h=G2UGMVSzAXGAQs3pFZpvWlHNRAzwPIWIVtSOxZHsEuc=",
+        "name": "UI Design Service",
+        "des": "Extremely prompt with communication & delivery. Very easy to communicate with & fixed any issues needed. Would highly recommend & will return for services when needed. Thank you",
+        "designation": "HR"
+    },
+    {
+        "id": "3",
+        "image": "https://image.shutterstock.com/image-photo/portrait-mature-businessman-wearing-glasses-260nw-738242395.jpg",
+        "name": "Sanny Boraki",
+        "des": "Thank you for your work. Was easy to work with, and the delivery happened fast. The gig was exactly as described, highly recommend.",
+        "designation": "CEO"
+    },
+    {
+        "id": "4",
+        "image": "https://media.istockphoto.com/photos/portrait-of-young-smiling-caucasian-man-with-crossed-arms-wearing-picture-id1171169107?k=20&m=1171169107&s=612x612&w=0&h=VkbOnU3zWYCbh3ojzqWFhK7JObxQduGzr4bRxqbgkLU=",
+        "name": "Fanny Ummar",
+        "des": "Seller worked quickly and professionally, and delivered a solid foundation for a landing page prototype that I ca apply for A/B testing. I recommned especially for people who want to take the visual off their mind and focus on the message.",
+        "designation": "Manager"
+    },
+    {
+        "id": "5",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeFS9FPtw5WUojDaaoGZEysHSyo1NhZqWezA&usqp=CAU",
+        "name": "Naneyi Hasi",
+        "des": "Working with this seller was an incredible experience. This is my first time doing a landing page and he knew exactly what to do to build an interesting and professional page. Thank you",
+        "designation": "CEO"
+    },
+    {
+        "id": "6",
+        "image": "https://burst.shopifycdn.com/photos/professional-man-portrait.jpg?width=1200&format=pjpg&exif=1&iptc=1",
+        "name": "Hidar Ibrahim",
+        "des": "Wow. Wow. Wow. I've worked with MANY company . Top it Ltd here? A gem!! Work with him. Do it now.",
+        "designation": "Wordpress"
+    },
+    {
+        "id": "7",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyvDMsL1kMtVB263BUOwBuIxhvNvRofSF_hg&usqp=CAU",
+        "name": "Jeny",
+        "des": "Consistent errors throughout delivery. Left a photo of an empty warehouse filled with garbage. Spelling errors etc. Didn't seem like they cared or paid attention to the project.",
+        "designation": "Manager"
+    }
+]

@@ -9,20 +9,19 @@ const Protfolio = () => {
             .then(data => setPortfolios(data))
     }, [])
     return (
-        <>
-            <div className='container px-sm-4 protfolio-head mb-4'>
+        <div className='portfolio-bg py-5'>
+            <div className='container px-sm-4 protfolio-head mb-4 pt-5'>
                 <div className='w-md-50'>
-                    <p className='latest-project'>Our LATEST PROJECT</p>
-                    <h4 className="latest-head">Checkout  Our Amazing work</h4>
+                    <p className='latest-project'>LATEST PROJECT</p>
+                    <h4 className="latest-head">Checkout  Our <br /> Amazing work</h4>
                 </div>
                 <div className='mt-sm-4 mb-sm-5'>
-                    <button className='latest-project-button'>Explore All <i className="ms-3 fas fa-arrow-right"></i></button>
-
+                    <button className='latest-project-button'>Explore All <i class="ms-3 fas fa-arrow-right"></i></button>
                 </div>
             </div>
 
             {/* portfolio start */}
-            <div>
+            <div className='pb-5'>
                 <div className='container portfolio'>
                     {
                         portfolios.map(portfolio => <div key={portfolio.id}>
@@ -41,7 +40,7 @@ const Protfolio = () => {
                     }
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

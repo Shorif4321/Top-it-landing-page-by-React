@@ -9,7 +9,7 @@ const HelpContent = () => {
         <div className="container">
             <div className='d-lg-flex justify-content-between my-5 pt-5 align-items-center'>
                 <div className='col-12 col-md-12 col-lg-5' >
-                    <img className='help-image img-fluid' src={helpImage} alt="Banner image" />
+                    <img className='rounded img-fluid' src={helpImage} alt="Banner image" />
                 </div>
 
                 <div className='col-12 col-md-12 col-lg-7  help' data-aos="fade-up"

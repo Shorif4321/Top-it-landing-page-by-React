@@ -3,9 +3,6 @@ import "./SliderHome.css"
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import sliderImage from "../../../Images/bannerUnder.png"
-import sliderImage1 from "../../../Images/slider2.png"
-import sliderImage2 from "../../../Images/slider3.png"
 import i2 from "../../../Images/i2.png"
 import i3 from "../../../Images/i3.png"
 import i4 from "../../../Images/i4.png"
@@ -29,7 +26,7 @@ const SliderHome = () => {
                     slidesToShow: 5,
                     slidesToScroll: 5,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
             {
@@ -37,19 +34,22 @@ const SliderHome = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    initialSlide: 2
+                    initialSlide: 2,
+                    dots: false
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots: false
+
                 }
             }
         ]
     };
-    return (<div className='slider container pb-5'>
+    return (<div className='  container pb-5'>
         <Slider {...settings}>
             <div className='px-1 slider-items'>
                 <img className='img-fluid' src={i5} alt="" />
