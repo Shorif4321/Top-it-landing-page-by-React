@@ -49,7 +49,7 @@ const SliderHome = () => {
             }
         ]
     };
-    return (<div className='  container pb-5'>
+    return (<div className=' slider-div container pt-sm- pb-5 mt-5'>
         <Slider {...settings}>
             <div className='px-1 slider-items'>
                 <img className='img-fluid' src={i5} alt="" />
