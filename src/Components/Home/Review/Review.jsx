@@ -75,7 +75,7 @@ const Review = () => {
                                     </div>
                                     <div>
                                         <h6 className=''>Mr:  {slider?.name}</h6>
-                                        <h6>{slider.designation}</h6>
+
 
                                     </div>
                                 </div>
